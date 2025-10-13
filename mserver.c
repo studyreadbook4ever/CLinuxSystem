@@ -217,7 +217,7 @@ int main(int argc, char *argv[]) {
     if (bind(listen_sock, (struct sockaddr*) &serv_addr, sizeof(serv_addr)) == -1) error_handling("bind() error");
     if (listen(listen_sock, 4096) == -1) error_handling("listen error");
     
-    printf("Master PID %d : Found %d cores. Creating workers...\n", getpid(), (long)NUM_CORES);
+    printf("Master PID %d : Found %ld cores. Creating workers...\n", getpid(), (long)NUM_CORES);
     
     for (int i = 0; i < NUM_CORES; i++) {
         pid = fork();
