@@ -1,3 +1,4 @@
+//code too unstable cause low sayang hardware issue.. <---이거도 코딩 실력이슈 cs지식이슈인데 // 중간끝나고 좀 극복해보는 쪽으로..
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
