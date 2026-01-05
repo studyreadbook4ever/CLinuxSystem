@@ -51,7 +51,7 @@ int main() {
 		int sock = init_port(dev_name);
 
 		if (sock >= 0){
-			port[active_ports] = sock;
+			ports[active_ports] = sock;
 			printf("Port %d attached: %s (FD number: %d)\n", active_ports, dev_name, sock);
 			active_ports++;
 		} else {
@@ -66,7 +66,7 @@ int main() {
 
 		for (int i = 0; i < active_ports; i++){
 			/*DONTWAIT Logic is very important.. */
-			int len = recv(ports[i], buffer, BUF_SIZE, MSG_DONTWAIT);
+			int len = recv(ports[i], buffer, sizeof(buffer), MSG_DONTWAIT);
 			if (len > 0) {
 				traffic_detected = 1;
 				for (int j = 0; j < active_ports; j++){
