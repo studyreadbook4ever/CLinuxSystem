@@ -2,3 +2,8 @@ self-made virtual L2Switch by C
 
 very easy code for my studying... (no license, I promise it has no usage..)
 usage: on alpine linux vmlinuz> compile and build image of these files by cpio and run it by qemu.
+
+셸에서 worker.c의 MAX_PORT에 해당하는 만큼 포트를 여는 명령어를 쳐주고
+(Switch 실행할땐 실행옵션에 포트 갯수만큼 쳐주고, worker 실행할 때는 <포트갯수> 번만큼 실행) 
+
+아직 유연한 포트 연결-해제는 내 레벨이 아닌듯 ㅠㅠㅠㅠㅠㅠㅠㅠㅠ 목표는 확장성 챙기기. 
