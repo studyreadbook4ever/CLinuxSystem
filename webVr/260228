@@ -1,0 +1,327 @@
+//와근데 기술 진짜 많이 발전함-메타퀘스트 3S로 했을때 딜레이 한 0.02초~0.04초 정도,
+
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VR Reaction Test - Jubeat Style</title>
+    <style>
+        body { margin: 0; background-color: #111; font-family: 'Inter', sans-serif; overflow: hidden; }
+        #info {
+            position: absolute; top: 20px; width: 100%; text-align: center;
+            color: white; pointer-events: none; z-index: 10;
+        }
+        .msg-box {
+            background: rgba(0,0,0,0.7); padding: 15px 25px; border-radius: 12px;
+            display: inline-block; border: 1px solid #444;
+        }
+    </style>
+</head>
+<body>
+    <div id="info">
+        <div class="msg-box">
+            <h1>VR 반응속도 테스트 (유비트 스타일)</h1>
+            <p>빨강: 왼손 | 파랑: 오른손 (20회 측정)</p>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <script type="module">
+        import * as THREE from 'three';
+        import { VRButton } from 'three/addons/webxr/VRButton.js';
+        import { XRControllerModelFactory } from 'three/addons/webxr/XRControllerModelFactory.js';
+
+        let camera, scene, renderer;
+        let controllers = [];
+        let raycaster = new THREE.Raycaster();
+        const tempMatrix = new THREE.Matrix4();
+
+        // 6x6 패널 관련
+        const GRID_SIZE = 6;
+        const panels = [];
+        let activePanelIndex = -1;
+        let targetHand = ''; // 'left' or 'right'
+
+        // 게임 로직 관련
+        let gameStatus = 'START_WAIT'; // START_WAIT, PLAYING, ROUND_GAP, SUMMARY
+        let trialCount = 0;
+        const MAX_TRIALS = 20;
+        let reactionTimes = [];
+        let startTime = 0;
+
+        // UI 관련
+        let uiPanel, uiCanvas, uiTexture;
+        let yesButton, noButton;
+        let yesText, noText;
+
+        init();
+        animate();
+
+        function init() {
+            scene = new THREE.Scene();
+            scene.background = new THREE.Color(0x050505);
+
+            camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 0.1, 100);
+            camera.position.set(0, 1.6, 2);
+
+            const light = new THREE.HemisphereLight(0xffffff, 0x444444, 3);
+            scene.add(light);
+
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.xr.enabled = true;
+            document.body.appendChild(renderer.domElement);
+            document.body.appendChild(VRButton.createButton(renderer));
+
+            // 컨트롤러 설정
+            setupControllers();
+
+            // 6x6 그리드 생성
+            createGrid();
+
+            // 상단 UI 패널 생성
+            createUIPanel();
+
+            // 재시작/종료 버튼 생성
+            createMenuButtons();
+
+            window.addEventListener('resize', onWindowResize);
+
+            // 초기 대기 후 시작
+            setTimeout(() => {
+                if (gameStatus === 'START_WAIT') startNewGame();
+            }, 3000);
+        }
+
+        function setupControllers() {
+            const controllerModelFactory = new XRControllerModelFactory();
+
+            for (let i = 0; i < 2; i++) {
+                const controller = renderer.xr.getController(i);
+                controller.addEventListener('selectstart', onSelectStart);
+                scene.add(controller);
+                controllers.push(controller);
+
+                const grip = renderer.xr.getControllerGrip(i);
+                grip.add(controllerModelFactory.createControllerModel(grip));
+                scene.add(grip);
+
+                // 레이 가이드라인
+                const lineGeo = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(0, 0, 0), new THREE.Vector3(0, 0, -10)]);
+                const line = new THREE.Line(lineGeo);
+                line.name = 'line';
+                controller.add(line);
+            }
+        }
+
+        function createGrid() {
+            const group = new THREE.Group();
+            const spacing = 0.22;
+            const size = 0.2;
+
+            for (let i = 0; i < GRID_SIZE * GRID_SIZE; i++) {
+                const geo = new THREE.BoxGeometry(size, size, 0.05);
+                const mat = new THREE.MeshPhongMaterial({ color: 0x222222 });
+                const panel = new THREE.Mesh(geo, mat);
+
+                const x = (i % GRID_SIZE) - (GRID_SIZE / 2) + 0.5;
+                const y = Math.floor(i / GRID_SIZE) - (GRID_SIZE / 2) + 0.5;
+
+                panel.position.set(x * spacing, y * spacing + 1.4, -1.2);
+                panel.userData.index = i;
+                group.add(panel);
+                panels.push(panel);
+            }
+            scene.add(group);
+        }
+
+        function createUIPanel() {
+            uiCanvas = document.createElement('canvas');
+            uiCanvas.width = 1024;
+            uiCanvas.height = 512;
+            uiTexture = new THREE.CanvasTexture(uiCanvas);
+            const planeMat = new THREE.MeshBasicMaterial({ map: uiTexture, transparent: true });
+            uiPanel = new THREE.Mesh(new THREE.PlaneGeometry(1.5, 0.75), planeMat);
+            uiPanel.position.set(0, 2.5, -1.5);
+            scene.add(uiPanel);
+            updateUI("준비하세요.");
+        }
+
+        function createMenuButtons() {
+            const geo = new THREE.BoxGeometry(0.4, 0.2, 0.05);
+            
+            // YES 버튼
+            yesButton = new THREE.Mesh(geo, new THREE.MeshPhongMaterial({ color: 0x00ff00 }));
+            yesButton.position.set(-0.3, 1.0, -1.0);
+            yesButton.visible = false;
+            
+            // NO 버튼
+            noButton = new THREE.Mesh(geo, new THREE.MeshPhongMaterial({ color: 0xff0000 }));
+            noButton.position.set(0.3, 1.0, -1.0);
+            noButton.visible = false;
+
+            // 버튼 텍스트용 캔버스
+            const createTextLabel = (text) => {
+                const canvas = document.createElement('canvas');
+                canvas.width = 256;
+                canvas.height = 128;
+                const ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'white';
+                ctx.font = 'bold 80px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(text, 128, 90);
+                const tex = new THREE.CanvasTexture(canvas);
+                const plane = new THREE.Mesh(new THREE.PlaneGeometry(0.3, 0.15), new THREE.MeshBasicMaterial({ map: tex, transparent: true }));
+                return plane;
+            };
+
+            yesText = createTextLabel("YES");
+            yesText.position.set(-0.3, 1.0, -0.97);
+            yesText.visible = false;
+
+            noText = createTextLabel("NO");
+            noText.position.set(0.3, 1.0, -0.97);
+            noText.visible = false;
+
+            scene.add(yesButton, noButton, yesText, noText);
+        }
+
+        function updateUI(text, subText = "") {
+            const ctx = uiCanvas.getContext('2d');
+            ctx.clearRect(0, 0, 1024, 512);
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+            ctx.roundRect(50, 50, 924, 412, 40);
+            ctx.fill();
+
+            ctx.fillStyle = 'white';
+            ctx.textAlign = 'center';
+            ctx.font = 'bold 60px Arial';
+            ctx.fillText(text, 512, 240);
+            
+            if (subText) {
+                ctx.font = '40px Arial';
+                ctx.fillStyle = '#aaa';
+                ctx.fillText(subText, 512, 340);
+            }
+            uiTexture.needsUpdate = true;
+        }
+
+        function startNewGame() {
+            reactionTimes = [];
+            trialCount = 0;
+            setMenuVisibility(false);
+            nextTrial();
+        }
+
+        function setMenuVisibility(visible) {
+            yesButton.visible = visible;
+            noButton.visible = visible;
+            yesText.visible = visible;
+            noText.visible = visible;
+        }
+
+        function nextTrial() {
+            if (trialCount >= MAX_TRIALS) {
+                showFinalResult();
+                return;
+            }
+
+            gameStatus = 'ROUND_GAP';
+            updateUI(`${trialCount + 1} / ${MAX_TRIALS}번째 대기 중...`);
+            
+            // 1~3초 랜덤타임아웃
+            setTimeout(spawnTarget, 1000 + Math.random() * 2000);
+        }
+
+        function spawnTarget() {
+            if (gameStatus !== 'ROUND_GAP') return;
+            gameStatus = 'PLAYING';
+            activePanelIndex = Math.floor(Math.random() * panels.length);
+            targetHand = Math.random() > 0.5 ? 'left' : 'right';
+
+            const panel = panels[activePanelIndex];
+            if (targetHand === 'left') {
+                panel.material.color.set(0xff0000); // 빨
+                panel.material.emissive.set(0x440000);
+            } else {
+                panel.material.color.set(0x0000ff); // 파
+                panel.material.emissive.set(0x000044);
+            }
+
+            startTime = performance.now();
+            updateUI(`${trialCount + 1} / ${MAX_TRIALS}`, targetHand === 'left' ? "왼손(빨강)으로 터치!" : "오른손(파랑)으로 터치!");
+        }
+
+        function onSelectStart(event) {
+            const controller = event.target;
+            
+            // 에러 수정: handedness 정보는 event.data에 들어있습니다.
+            if (!event.data || !event.data.handedness) return;
+            const handedness = event.data.handedness; 
+
+            tempMatrix.identity().extractRotation(controller.matrixWorld);
+            raycaster.ray.origin.setFromMatrixPosition(controller.matrixWorld);
+            raycaster.ray.direction.set(0, 0, -1).applyMatrix4(tempMatrix);
+
+            if (gameStatus === 'PLAYING') {
+                const intersects = raycaster.intersectObject(panels[activePanelIndex]);
+                if (intersects.length > 0) {
+                    if (handedness === targetHand) {
+                        const hitTime = performance.now();
+                        const diff = (hitTime - startTime) / 1000;
+                        reactionTimes.push(diff);
+                        
+                        // 패널 리셋
+                        panels[activePanelIndex].material.color.set(0x222222);
+                        panels[activePanelIndex].material.emissive.set(0x000000);
+                        
+                        trialCount++;
+                        nextTrial();
+                    } else {
+                        updateUI("틀린 손입니다!", "반대쪽 손을 사용하세요");
+                    }
+                }
+            } else if (gameStatus === 'SUMMARY') {
+                if (raycaster.intersectObject(yesButton).length > 0) {
+                    startNewGame();
+                } else if (raycaster.intersectObject(noButton).length > 0) {
+                    const session = renderer.xr.getSession();
+                    if (session) session.end();
+                }
+            }
+        }
+
+        function showFinalResult() {
+            gameStatus = 'SUMMARY';
+            const sum = reactionTimes.reduce((a, b) => a + b, 0);
+            const avg = (sum / MAX_TRIALS).toFixed(3);
+
+            updateUI(`평균 반응속도: ${avg}초`, "다시 하시겠습니까? (YES / NO)");
+            setMenuVisibility(true);
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function animate() {
+            renderer.setAnimationLoop(render);
+        }
+
+        function render() {
+            renderer.render(scene, camera);
+        }
+    </script>
+</body>
+</html>
