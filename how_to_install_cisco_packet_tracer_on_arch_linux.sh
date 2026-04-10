@@ -2,7 +2,7 @@
 
 git clone https://aur.archlinux.org/packettracer.git
 cd packettracer
-#on packettracer direction, put 'CiscoPacketTracer_900_Ubuntu_64bit.deb' what downloaded on netacad 
+#on packettracer direction, you need to put 'CiscoPacketTracer_900_Ubuntu_64bit.deb' what downloaded on netacad 
 
 makepkg -sirc
 #s, i need strongly, and remove remaining package files unnecessary
