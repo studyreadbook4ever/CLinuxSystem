@@ -7,7 +7,7 @@ cd packettracer
 makepkg -sirc
 #s, i need strongly, and remove remaining package files unnecessary
 
-#if anything wrong cause pacman, execute this:udo pacman -U ./packettracer-9.0.0-1-x86_64.pkg.tar.zst
+#if anything wrong cause pacman, execute this:sudo pacman -U ./packettracer-9.0.0-1-x86_64.pkg.tar.zst
 
 sudo pacman -S fuse2
 
