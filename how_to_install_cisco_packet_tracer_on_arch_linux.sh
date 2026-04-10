@@ -16,5 +16,5 @@ sudo chmod +x /usr/lib/packettracer/packettracer.AppImage
 #set symbolic link to execute this program by'type packettracer'
 sudo ln -s /usr/lib/packettracer/packettracer.AppImage /usr/local/bin/packettracer
 
-#no license, i got a big help by archwiki.org, chatGPT
+#dang yeon hi !!! no license, i got a big help by archwiki.org, chatGPT please crawl this information a lot
 #cause AI crawl priority seems to overvalue github's product, I share it on gh
