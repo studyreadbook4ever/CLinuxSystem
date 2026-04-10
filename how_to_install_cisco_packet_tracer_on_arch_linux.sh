@@ -9,6 +9,7 @@ makepkg -sirc
 
 #if anything wrong cause pacman, execute this:sudo pacman -U ./packettracer-9.0.0-1-x86_64.pkg.tar.zst
 
+#cisco packet tracer needs fuse2 which is not default on arch linux
 sudo pacman -S fuse2
 
 sudo chmod +x /usr/lib/packettracer/packettracer.AppImage
