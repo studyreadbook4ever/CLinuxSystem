@@ -1,0 +1,8041 @@
+[
+  {
+    "line_index": 1,
+    "line_name": "수도권 전철 1호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "연천",
+        "lat": 38.10073,
+        "lon": 127.07372,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "전곡",
+        "lat": 38.02458,
+        "lon": 127.0718,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "청산",
+        "lat": 37.98172,
+        "lon": 127.06912,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "소요산",
+        "lat": 37.9481,
+        "lon": 127.061034,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "동두천",
+        "lat": 37.927878,
+        "lon": 127.05479,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "보산",
+        "lat": 37.913702,
+        "lon": 127.057277,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "동두천중앙",
+        "lat": 37.901885,
+        "lon": 127.056482,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "지행",
+        "lat": 37.892334,
+        "lon": 127.055716,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "덕정(서정대학교)",
+        "lat": 37.843188,
+        "lon": 127.061277,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "덕계",
+        "lat": 37.818486,
+        "lon": 127.056486,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "양주",
+        "lat": 37.774381,
+        "lon": 127.044708,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "녹양",
+        "lat": 37.75938,
+        "lon": 127.042292,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "가능(을지대병원)",
+        "lat": 37.748577,
+        "lon": 127.044213,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "의정부",
+        "lat": 37.738415,
+        "lon": 127.045958,
+        "transfer": [
+          {
+            "line_index": 24,
+            "station_name": "경전철의정부",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "name": "회룡",
+        "lat": 37.724416,
+        "lon": 127.04736,
+        "transfer": [
+          {
+            "line_index": 24,
+            "station_name": "회룡",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "name": "망월사(신한대 제1캠퍼스)",
+        "lat": 37.709914,
+        "lon": 127.047455,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "도봉산",
+        "lat": 37.689534,
+        "lon": 127.046049,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "도봉산",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "도봉",
+        "lat": 37.679563,
+        "lon": 127.045595,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "방학",
+        "lat": 37.667503,
+        "lon": 127.044273,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "창동",
+        "lat": 37.653007,
+        "lon": 127.047806,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "창동",
+            "station_index": 7
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "name": "녹천",
+        "lat": 37.644799,
+        "lon": 127.051269,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "월계",
+        "lat": 37.633212,
+        "lon": 127.058831,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "광운대",
+        "lat": 37.623632,
+        "lon": 127.061835,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "석계",
+        "lat": 37.614532,
+        "lon": 127.065934,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "석계",
+            "station_index": 35
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "name": "신이문",
+        "lat": 37.601854,
+        "lon": 127.067325,
+        "transfer": []
+      },
+      {
+        "index": 26,
+        "name": "외대앞",
+        "lat": 37.596073,
+        "lon": 127.063549,
+        "transfer": []
+      },
+      {
+        "index": 27,
+        "name": "회기(경희대)",
+        "lat": 37.58946,
+        "lon": 127.057583,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "회기(경희대)",
+            "station_index": 35
+          },
+          {
+            "line_index": 15,
+            "station_name": "회기(경희대)",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "청량리(서울시립대입구)",
+        "lat": 37.580759,
+        "lon": 127.0483,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "청량리",
+            "station_index": 34
+          },
+          {
+            "line_index": 15,
+            "station_name": "청량리",
+            "station_index": 1
+          },
+          {
+            "line_index": 18,
+            "station_name": "청량리",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "name": "제기동(한국건강관리협회)",
+        "lat": 37.578103,
+        "lon": 127.034893,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "신설동",
+        "lat": 37.576048,
+        "lon": 127.024634,
+        "transfer": [
+          {
+            "line_index": 21,
+            "station_name": "신설동",
+            "station_index": 1
+          },
+          {
+            "line_index": 97,
+            "station_name": "신설동",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 31,
+        "name": "동묘앞",
+        "lat": 37.573197,
+        "lon": 127.01648,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "동묘앞",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "name": "동대문",
+        "lat": 37.571687,
+        "lon": 127.01093,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "동대문",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "name": "종로5가(삼양그룹)",
+        "lat": 37.570926,
+        "lon": 127.001849,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "종로3가",
+        "lat": 37.570406,
+        "lon": 126.991847,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "종로3가",
+            "station_index": 21
+          },
+          {
+            "line_index": 6,
+            "station_name": "종로3가(탑골공원)",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 35,
+        "name": "종각",
+        "lat": 37.570161,
+        "lon": 126.982923,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "시청",
+        "lat": 37.565715,
+        "lon": 126.977088,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "시청",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "서울",
+        "lat": 37.554337,
+        "lon": 126.971134,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "서울",
+            "station_index": 21
+          },
+          {
+            "line_index": 16,
+            "station_name": "서울",
+            "station_index": 1
+          },
+          {
+            "line_index": 94,
+            "station_name": "서울",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 38,
+        "name": "남영(민주화운동기념관)",
+        "lat": 37.541021,
+        "lon": 126.9713,
+        "transfer": []
+      },
+      {
+        "index": 39,
+        "name": "용산",
+        "lat": 37.529849,
+        "lon": 126.964561,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "용산",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 40,
+        "name": "노량진",
+        "lat": 37.514149,
+        "lon": 126.94271,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "노량진",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 41,
+        "name": "대방",
+        "lat": 37.513342,
+        "lon": 126.926382,
+        "transfer": [
+          {
+            "line_index": 20,
+            "station_name": "대방(성애병원)",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 42,
+        "name": "신길",
+        "lat": 37.516862,
+        "lon": 126.917865,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "신길",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 43,
+        "name": "영등포",
+        "lat": 37.515504,
+        "lon": 126.907628,
+        "transfer": []
+      },
+      {
+        "index": 44,
+        "name": "신도림",
+        "lat": 37.508787,
+        "lon": 126.891144,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "신도림",
+            "station_index": 34
+          },
+          {
+            "line_index": 96,
+            "station_name": "신도림",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "name": "구로",
+        "lat": 37.503039,
+        "lon": 126.881966,
+        "transfer": [
+          {
+            "line_index": 2,
+            "station_name": "구로",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 46,
+        "name": "가산디지털단지(마리오아울렛)",
+        "lat": 37.481581,
+        "lon": 126.882581,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "가산디지털단지(마리오아울렛)",
+            "station_index": 38
+          }
+        ]
+      },
+      {
+        "index": 47,
+        "name": "독산",
+        "lat": 37.466613,
+        "lon": 126.889249,
+        "transfer": []
+      },
+      {
+        "index": 48,
+        "name": "금천구청",
+        "lat": 37.455626,
+        "lon": 126.89398,
+        "transfer": [
+          {
+            "line_index": 99,
+            "station_name": "금천구청",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 49,
+        "name": "석수",
+        "lat": 37.435047,
+        "lon": 126.902295,
+        "transfer": []
+      },
+      {
+        "index": 50,
+        "name": "관악(안양예술공원)",
+        "lat": 37.419232,
+        "lon": 126.908706,
+        "transfer": []
+      },
+      {
+        "index": 51,
+        "name": "안양",
+        "lat": 37.401592,
+        "lon": 126.922874,
+        "transfer": []
+      },
+      {
+        "index": 52,
+        "name": "명학(성결대학교)",
+        "lat": 37.384653,
+        "lon": 126.935433,
+        "transfer": []
+      },
+      {
+        "index": 53,
+        "name": "금정",
+        "lat": 37.372221,
+        "lon": 126.943429,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "금정",
+            "station_index": 38
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "name": "군포(지샘병원)",
+        "lat": 37.35356,
+        "lon": 126.948462,
+        "transfer": []
+      },
+      {
+        "index": 55,
+        "name": "당정(한세대)",
+        "lat": 37.344285,
+        "lon": 126.948345,
+        "transfer": []
+      },
+      {
+        "index": 56,
+        "name": "의왕",
+        "lat": 37.320852,
+        "lon": 126.948217,
+        "transfer": []
+      },
+      {
+        "index": 57,
+        "name": "성균관대",
+        "lat": 37.300349,
+        "lon": 126.97075,
+        "transfer": []
+      },
+      {
+        "index": 58,
+        "name": "화서(스타필드수원)",
+        "lat": 37.283862,
+        "lon": 126.989627,
+        "transfer": []
+      },
+      {
+        "index": 59,
+        "name": "수원",
+        "lat": 37.266348,
+        "lon": 126.999561,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "수원",
+            "station_index": 37
+          }
+        ]
+      },
+      {
+        "index": 60,
+        "name": "세류",
+        "lat": 37.245025,
+        "lon": 127.013222,
+        "transfer": []
+      },
+      {
+        "index": 61,
+        "name": "병점",
+        "lat": 37.207503,
+        "lon": 127.032731,
+        "transfer": [
+          {
+            "line_index": 98,
+            "station_name": "병점",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 62,
+        "name": "세마",
+        "lat": 37.187533,
+        "lon": 127.04318,
+        "transfer": []
+      },
+      {
+        "index": 63,
+        "name": "오산대",
+        "lat": 37.168953,
+        "lon": 127.063197,
+        "transfer": []
+      },
+      {
+        "index": 64,
+        "name": "오산",
+        "lat": 37.145885,
+        "lon": 127.06672,
+        "transfer": []
+      },
+      {
+        "index": 65,
+        "name": "진위",
+        "lat": 37.109447,
+        "lon": 127.062278,
+        "transfer": []
+      },
+      {
+        "index": 66,
+        "name": "송탄",
+        "lat": 37.075696,
+        "lon": 127.054301,
+        "transfer": []
+      },
+      {
+        "index": 67,
+        "name": "서정리(국제대학)",
+        "lat": 37.056496,
+        "lon": 127.052819,
+        "transfer": []
+      },
+      {
+        "index": 68,
+        "name": "평택지제(한경국립대)",
+        "lat": 37.0188,
+        "lon": 127.070444,
+        "transfer": []
+      },
+      {
+        "index": 69,
+        "name": "평택",
+        "lat": 36.990726,
+        "lon": 127.085159,
+        "transfer": []
+      },
+      {
+        "index": 70,
+        "name": "성환",
+        "lat": 36.916076,
+        "lon": 127.126964,
+        "transfer": []
+      },
+      {
+        "index": 71,
+        "name": "직산",
+        "lat": 36.870593,
+        "lon": 127.143904,
+        "transfer": []
+      },
+      {
+        "index": 72,
+        "name": "두정",
+        "lat": 36.833705,
+        "lon": 127.14896,
+        "transfer": []
+      },
+      {
+        "index": 73,
+        "name": "천안",
+        "lat": 36.810005,
+        "lon": 127.146826,
+        "transfer": []
+      },
+      {
+        "index": 74,
+        "name": "봉명",
+        "lat": 36.801215,
+        "lon": 127.135763,
+        "transfer": []
+      },
+      {
+        "index": 75,
+        "name": "쌍용(나사렛대)",
+        "lat": 36.793759,
+        "lon": 127.1214,
+        "transfer": []
+      },
+      {
+        "index": 76,
+        "name": "아산",
+        "lat": 36.792053,
+        "lon": 127.104361,
+        "transfer": []
+      },
+      {
+        "index": 77,
+        "name": "탕정",
+        "lat": 36.78866,
+        "lon": 127.08485,
+        "transfer": []
+      },
+      {
+        "index": 78,
+        "name": "배방",
+        "lat": 36.777629,
+        "lon": 127.052991,
+        "transfer": []
+      },
+      {
+        "index": 79,
+        "name": "온양온천(아산현충사)",
+        "lat": 36.780483,
+        "lon": 127.003249,
+        "transfer": []
+      },
+      {
+        "index": 80,
+        "name": "신창(순천향대)",
+        "lat": 36.769502,
+        "lon": 126.951108,
+        "transfer": []
+      },
+      {
+        "index": 81,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 2,
+    "line_name": "수도권 전철 1호선(구로~인천)",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "구로",
+        "lat": 37.503039,
+        "lon": 126.881966,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "구로",
+            "station_index": 45
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "구일",
+        "lat": 37.496756,
+        "lon": 126.870793,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "개봉",
+        "lat": 37.494594,
+        "lon": 126.85968,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "오류동",
+        "lat": 37.494526,
+        "lon": 126.845365,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "온수(성공회대)",
+        "lat": 37.492433,
+        "lon": 126.824086,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "온수(성공회대입구)",
+            "station_index": 42
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "역곡(가톨릭대)",
+        "lat": 37.485178,
+        "lon": 126.811502,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "소사(서울신대)",
+        "lat": 37.482753,
+        "lon": 126.79544,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "소사(서울신대)",
+            "station_index": 12
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "name": "부천(부천대학교)",
+        "lat": 37.48405,
+        "lon": 126.782686,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "중동",
+        "lat": 37.486562,
+        "lon": 126.764843,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "송내",
+        "lat": 37.4876,
+        "lon": 126.753664,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "부개",
+        "lat": 37.488418,
+        "lon": 126.74109,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "부평(가톨릭대 인천성모병원)",
+        "lat": 37.489445,
+        "lon": 126.724506,
+        "transfer": [
+          {
+            "line_index": 11,
+            "station_name": "부평(부평힘찬병원)",
+            "station_index": 11
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "name": "백운",
+        "lat": 37.483664,
+        "lon": 126.707704,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "동암",
+        "lat": 37.471408,
+        "lon": 126.702896,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "간석",
+        "lat": 37.464737,
+        "lon": 126.694181,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "주안(인천사랑병원)",
+        "lat": 37.465047,
+        "lon": 126.679742,
+        "transfer": [
+          {
+            "line_index": 12,
+            "station_name": "주안(인천사랑병원)",
+            "station_index": 18
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "도화",
+        "lat": 37.46607,
+        "lon": 126.668672,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "제물포(인천대학교 제물포캠퍼스)",
+        "lat": 37.466769,
+        "lon": 126.656666,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "도원",
+        "lat": 37.468446,
+        "lon": 126.642706,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "동인천",
+        "lat": 37.475276,
+        "lon": 126.632802,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "인천",
+        "lat": 37.476079,
+        "lon": 126.616801,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "인천",
+            "station_index": 63
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 3,
+    "line_name": "서울 지하철 2호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "시청",
+        "lat": 37.563588,
+        "lon": 126.975411,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "시청",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "을지로입구(하나은행)",
+        "lat": 37.566014,
+        "lon": 126.982618,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "을지로3가(신한카드)",
+        "lat": 37.566306,
+        "lon": 126.991696,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "을지로3가(신한카드)",
+            "station_index": 22
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "을지로4가(케이뱅크)",
+        "lat": 37.566595,
+        "lon": 126.997817,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "을지로4가(케이뱅크)",
+            "station_index": 26
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "동대문역사문화공원(DDP)",
+        "lat": 37.565613,
+        "lon": 127.009054,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "동대문역사문화공원(DDP)",
+            "station_index": 17
+          },
+          {
+            "line_index": 6,
+            "station_name": "동대문역사문화공원(DDP)",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "신당",
+        "lat": 37.56564,
+        "lon": 127.019614,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "신당",
+            "station_index": 26
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "상왕십리",
+        "lat": 37.564354,
+        "lon": 127.029354,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "왕십리(성동구청)",
+        "lat": 37.561238,
+        "lon": 127.036954,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "왕십리(성동구청)",
+            "station_index": 31
+          },
+          {
+            "line_index": 14,
+            "station_name": "왕십리",
+            "station_index": 33
+          },
+          {
+            "line_index": 18,
+            "station_name": "왕십리",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "한양대",
+        "lat": 37.555273,
+        "lon": 127.043655,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "뚝섬",
+        "lat": 37.547184,
+        "lon": 127.047367,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "성수(무신사)",
+        "lat": 37.544581,
+        "lon": 127.055961,
+        "transfer": [
+          {
+            "line_index": 97,
+            "station_name": "성수(무신사)",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "name": "건대입구",
+        "lat": 37.540373,
+        "lon": 127.069191,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "건대입구",
+            "station_index": 19
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "name": "구의(광진구청)",
+        "lat": 37.537077,
+        "lon": 127.085916,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "강변(동서울터미널)",
+        "lat": 37.535095,
+        "lon": 127.094681,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "잠실나루(수협중앙회공제보험)",
+        "lat": 37.520733,
+        "lon": 127.10379,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "잠실(송파구청)",
+        "lat": 37.513262,
+        "lon": 127.100159,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "잠실(송파구청)",
+            "station_index": 11
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "잠실새내",
+        "lat": 37.511687,
+        "lon": 127.086162,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "종합운동장",
+        "lat": 37.511022,
+        "lon": 127.073704,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "종합운동장",
+            "station_index": 30
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "name": "삼성(무역센터)",
+        "lat": 37.508844,
+        "lon": 127.06316,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "선릉(애큐온저축은행)",
+        "lat": 37.504286,
+        "lon": 127.048203,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "선릉",
+            "station_index": 7
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "name": "역삼(센터필드)",
+        "lat": 37.500622,
+        "lon": 127.036456,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "강남(하루플란트치과)",
+        "lat": 37.49799,
+        "lon": 127.027912,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "강남",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "name": "교대(법원·검찰청)",
+        "lat": 37.493961,
+        "lon": 127.014667,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "교대(법원·검찰청)",
+            "station_index": 32
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "name": "서초",
+        "lat": 37.491897,
+        "lon": 127.007917,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "방배(백석예술대)",
+        "lat": 37.481426,
+        "lon": 126.997596,
+        "transfer": []
+      },
+      {
+        "index": 26,
+        "name": "사당",
+        "lat": 37.476538,
+        "lon": 126.981544,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "사당",
+            "station_index": 28
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "name": "낙성대(강감찬)",
+        "lat": 37.47693,
+        "lon": 126.963693,
+        "transfer": []
+      },
+      {
+        "index": 28,
+        "name": "서울대입구(관악구청)",
+        "lat": 37.481247,
+        "lon": 126.952739,
+        "transfer": []
+      },
+      {
+        "index": 29,
+        "name": "봉천",
+        "lat": 37.482362,
+        "lon": 126.941892,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "신림",
+        "lat": 37.484201,
+        "lon": 126.929715,
+        "transfer": [
+          {
+            "line_index": 20,
+            "station_name": "신림",
+            "station_index": 8
+          }
+        ]
+      },
+      {
+        "index": 31,
+        "name": "신대방",
+        "lat": 37.487462,
+        "lon": 126.913149,
+        "transfer": []
+      },
+      {
+        "index": 32,
+        "name": "구로디지털단지(원광디지털대)",
+        "lat": 37.485266,
+        "lon": 126.901401,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "대림(구로구청)",
+        "lat": 37.493243,
+        "lon": 126.894932,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "대림(구로구청)",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 34,
+        "name": "신도림",
+        "lat": 37.508961,
+        "lon": 126.891084,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "신도림",
+            "station_index": 44
+          },
+          {
+            "line_index": 96,
+            "station_name": "신도림",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 35,
+        "name": "문래(김안과병원)",
+        "lat": 37.517933,
+        "lon": 126.89476,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "영등포구청",
+        "lat": 37.525706,
+        "lon": 126.89661,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "영등포구청",
+            "station_index": 14
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "당산",
+        "lat": 37.534946,
+        "lon": 126.902767,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "당산",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 38,
+        "name": "합정(세아타워)",
+        "lat": 37.549457,
+        "lon": 126.913808,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "합정(세아타워)",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "name": "홍대입구",
+        "lat": 37.55679,
+        "lon": 126.923708,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "홍대입구",
+            "station_index": 23
+          },
+          {
+            "line_index": 16,
+            "station_name": "홍대입구",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 40,
+        "name": "신촌",
+        "lat": 37.555131,
+        "lon": 126.936926,
+        "transfer": []
+      },
+      {
+        "index": 41,
+        "name": "이대",
+        "lat": 37.556733,
+        "lon": 126.946013,
+        "transfer": []
+      },
+      {
+        "index": 42,
+        "name": "아현",
+        "lat": 37.557345,
+        "lon": 126.956141,
+        "transfer": []
+      },
+      {
+        "index": 43,
+        "name": "충정로(경기대입구)",
+        "lat": 37.559704,
+        "lon": 126.964378,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "충정로(경기대입구)",
+            "station_index": 22
+          }
+        ]
+      },
+      {
+        "index": 44,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 4,
+    "line_name": "수도권 전철 3호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "대화",
+        "lat": 37.676087,
+        "lon": 126.747569,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "주엽",
+        "lat": 37.670072,
+        "lon": 126.761334,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "정발산(고양아람누리)",
+        "lat": 37.659477,
+        "lon": 126.773359,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "마두",
+        "lat": 37.652206,
+        "lon": 126.77762,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "백석(건강보험일산병원)",
+        "lat": 37.643114,
+        "lon": 126.78787,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "대곡",
+        "lat": 37.631626,
+        "lon": 126.811024,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "대곡",
+            "station_index": 15
+          },
+          {
+            "line_index": 17,
+            "station_name": "대곡",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "화정",
+        "lat": 37.634592,
+        "lon": 126.83265,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "원당",
+        "lat": 37.653324,
+        "lon": 126.843041,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "원흥",
+        "lat": 37.650658,
+        "lon": 126.872642,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "삼송(중부대학교)",
+        "lat": 37.653083,
+        "lon": 126.895558,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "지축",
+        "lat": 37.648017,
+        "lon": 126.91397,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "구파발(은평성모병원)",
+        "lat": 37.636763,
+        "lon": 126.918821,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "연신내",
+        "lat": 37.619229,
+        "lon": 126.921038,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "연신내",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "불광",
+        "lat": 37.610553,
+        "lon": 126.92982,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "불광",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "name": "녹번",
+        "lat": 37.600927,
+        "lon": 126.935756,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "홍제",
+        "lat": 37.589066,
+        "lon": 126.943736,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "무악재",
+        "lat": 37.582299,
+        "lon": 126.950291,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "독립문(감리교신학대학교)",
+        "lat": 37.574571,
+        "lon": 126.957748,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "경복궁(정부서울청사)",
+        "lat": 37.575762,
+        "lon": 126.97353,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "안국(현대건설)",
+        "lat": 37.576477,
+        "lon": 126.985443,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "종로3가",
+        "lat": 37.571605,
+        "lon": 126.991791,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "종로3가",
+            "station_index": 34
+          },
+          {
+            "line_index": 6,
+            "station_name": "종로3가(탑골공원)",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "을지로3가(신한카드)",
+        "lat": 37.566672,
+        "lon": 126.992548,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "을지로3가(신한카드)",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "name": "충무로",
+        "lat": 37.56143,
+        "lon": 126.994072,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "충무로",
+            "station_index": 18
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "name": "동대입구",
+        "lat": 37.559052,
+        "lon": 127.005602,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "약수",
+        "lat": 37.554867,
+        "lon": 127.010541,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "약수",
+            "station_index": 24
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "name": "금호",
+        "lat": 37.548034,
+        "lon": 127.015872,
+        "transfer": []
+      },
+      {
+        "index": 27,
+        "name": "옥수",
+        "lat": 37.541684,
+        "lon": 127.017269,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "옥수",
+            "station_index": 31
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "압구정(현대백화점)",
+        "lat": 37.527072,
+        "lon": 127.028461,
+        "transfer": []
+      },
+      {
+        "index": 29,
+        "name": "신사(KCC건설)",
+        "lat": 37.516334,
+        "lon": 127.020114,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "신사",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "name": "잠원",
+        "lat": 37.512759,
+        "lon": 127.01122,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "고속터미널",
+        "lat": 37.504891,
+        "lon": 127.004916,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "고속터미널",
+            "station_index": 26
+          },
+          {
+            "line_index": 10,
+            "station_name": "고속터미널",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "name": "교대(법원·검찰청)",
+        "lat": 37.493025,
+        "lon": 127.013786,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "교대(법원·검찰청)",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 33,
+        "name": "남부터미널(예술의전당)",
+        "lat": 37.485013,
+        "lon": 127.016189,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "양재(서초구청)",
+        "lat": 37.484477,
+        "lon": 127.033902,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "양재(서초구청)",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 35,
+        "name": "매봉",
+        "lat": 37.486947,
+        "lon": 127.046769,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "도곡",
+        "lat": 37.490922,
+        "lon": 127.055452,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "도곡",
+            "station_index": 9
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "대치",
+        "lat": 37.494612,
+        "lon": 127.063642,
+        "transfer": []
+      },
+      {
+        "index": 38,
+        "name": "학여울",
+        "lat": 37.496663,
+        "lon": 127.070594,
+        "transfer": []
+      },
+      {
+        "index": 39,
+        "name": "대청(서울주택도시개발공사)",
+        "lat": 37.493514,
+        "lon": 127.079532,
+        "transfer": []
+      },
+      {
+        "index": 40,
+        "name": "일원",
+        "lat": 37.483681,
+        "lon": 127.08439,
+        "transfer": []
+      },
+      {
+        "index": 41,
+        "name": "수서",
+        "lat": 37.487378,
+        "lon": 127.101907,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "수서",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 42,
+        "name": "가락시장",
+        "lat": 37.492245,
+        "lon": 127.117757,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "가락시장",
+            "station_index": 14
+          }
+        ]
+      },
+      {
+        "index": 43,
+        "name": "경찰병원",
+        "lat": 37.495918,
+        "lon": 127.12454,
+        "transfer": []
+      },
+      {
+        "index": 44,
+        "name": "오금",
+        "lat": 37.502129,
+        "lon": 127.128319,
+        "transfer": [
+          {
+            "line_index": 95,
+            "station_name": "오금",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 5,
+    "line_name": "수도권 전철 4호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "진접",
+        "lat": 37.7205,
+        "lon": 127.2034,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "오남",
+        "lat": 37.705,
+        "lon": 127.19281,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "별내별가람",
+        "lat": 37.66778,
+        "lon": 127.11581,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "당고개",
+        "lat": 37.670272,
+        "lon": 127.079066,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "상계",
+        "lat": 37.660878,
+        "lon": 127.073572,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "노원",
+        "lat": 37.65627,
+        "lon": 127.063276,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "노원",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "창동",
+        "lat": 37.653088,
+        "lon": 127.047274,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "창동",
+            "station_index": 20
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "name": "쌍문",
+        "lat": 37.648627,
+        "lon": 127.034709,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "수유(강북구청)",
+        "lat": 37.638052,
+        "lon": 127.025732,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "미아(서울사이버대학)",
+        "lat": 37.62667,
+        "lon": 127.025983,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "미아사거리",
+        "lat": 37.613292,
+        "lon": 127.030053,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "길음",
+        "lat": 37.603407,
+        "lon": 127.025053,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "성신여대입구(돈암)",
+        "lat": 37.592612,
+        "lon": 127.016441,
+        "transfer": [
+          {
+            "line_index": 21,
+            "station_name": "성신여대입구(돈암)",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "한성대입구(삼선교)",
+        "lat": 37.588458,
+        "lon": 127.006221,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "혜화",
+        "lat": 37.582336,
+        "lon": 127.001844,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "동대문",
+        "lat": 37.57093,
+        "lon": 127.009287,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "동대문",
+            "station_index": 32
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "동대문역사문화공원(DDP)",
+        "lat": 37.565133,
+        "lon": 127.007885,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "동대문역사문화공원(DDP)",
+            "station_index": 5
+          },
+          {
+            "line_index": 6,
+            "station_name": "동대문역사문화공원(DDP)",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "충무로",
+        "lat": 37.561207,
+        "lon": 126.99408,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "충무로",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "name": "명동(우리금융타운)",
+        "lat": 37.560989,
+        "lon": 126.986325,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "회현(남대문시장)",
+        "lat": 37.558514,
+        "lon": 126.978246,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "서울",
+        "lat": 37.55281,
+        "lon": 126.972556,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "서울",
+            "station_index": 37
+          },
+          {
+            "line_index": 16,
+            "station_name": "서울",
+            "station_index": 1
+          },
+          {
+            "line_index": 94,
+            "station_name": "서울",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "숙대입구(서울시교육청)",
+        "lat": 37.54456,
+        "lon": 126.972106,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "삼각지(전쟁기념관)",
+        "lat": 37.534075,
+        "lon": 126.9726,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "삼각지(전쟁기념관)",
+            "station_index": 19
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "name": "신용산(아모레퍼시픽)",
+        "lat": 37.52917,
+        "lon": 126.967894,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "이촌(국립중앙박물관)",
+        "lat": 37.522295,
+        "lon": 126.974733,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "이촌",
+            "station_index": 28
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "name": "동작(현충원)",
+        "lat": 37.502852,
+        "lon": 126.980347,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "동작(현충원)",
+            "station_index": 20
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "name": "이수(총신대입구)",
+        "lat": 37.486263,
+        "lon": 126.981989,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "이수(총신대입구)",
+            "station_index": 28
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "사당",
+        "lat": 37.476955,
+        "lon": 126.981651,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "사당",
+            "station_index": 26
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "name": "남태령",
+        "lat": 37.463873,
+        "lon": 126.989134,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "선바위",
+        "lat": 37.451673,
+        "lon": 127.002303,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "경마공원",
+        "lat": 37.443885,
+        "lon": 127.007888,
+        "transfer": []
+      },
+      {
+        "index": 32,
+        "name": "대공원",
+        "lat": 37.435675,
+        "lon": 127.006523,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "과천",
+        "lat": 37.433021,
+        "lon": 126.996568,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "정부과천청사",
+        "lat": 37.426513,
+        "lon": 126.98978,
+        "transfer": []
+      },
+      {
+        "index": 35,
+        "name": "인덕원",
+        "lat": 37.401553,
+        "lon": 126.976715,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "평촌(한림대성심병원)",
+        "lat": 37.394287,
+        "lon": 126.963883,
+        "transfer": []
+      },
+      {
+        "index": 37,
+        "name": "범계",
+        "lat": 37.389793,
+        "lon": 126.950806,
+        "transfer": []
+      },
+      {
+        "index": 38,
+        "name": "금정",
+        "lat": 37.372209,
+        "lon": 126.943417,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "금정",
+            "station_index": 53
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "name": "산본(원광대산본병원)",
+        "lat": 37.358101,
+        "lon": 126.933274,
+        "transfer": []
+      },
+      {
+        "index": 40,
+        "name": "수리산",
+        "lat": 37.349801,
+        "lon": 126.925365,
+        "transfer": []
+      },
+      {
+        "index": 41,
+        "name": "대야미",
+        "lat": 37.328467,
+        "lon": 126.917332,
+        "transfer": []
+      },
+      {
+        "index": 42,
+        "name": "반월",
+        "lat": 37.312212,
+        "lon": 126.903524,
+        "transfer": []
+      },
+      {
+        "index": 43,
+        "name": "상록수(안산대학교)",
+        "lat": 37.302795,
+        "lon": 126.866489,
+        "transfer": []
+      },
+      {
+        "index": 44,
+        "name": "한대앞",
+        "lat": 37.309689,
+        "lon": 126.85344,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "한대앞",
+            "station_index": 43
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "name": "중앙(서울예술대학교)",
+        "lat": 37.315941,
+        "lon": 126.838573,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "중앙(서울예술대학교)",
+            "station_index": 44
+          }
+        ]
+      },
+      {
+        "index": 46,
+        "name": "고잔(고대안산병원)",
+        "lat": 37.316784,
+        "lon": 126.823144,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "고잔(고대안산병원)",
+            "station_index": 45
+          }
+        ]
+      },
+      {
+        "index": 47,
+        "name": "초지(신안산대학교)",
+        "lat": 37.320646,
+        "lon": 126.805913,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "초지",
+            "station_index": 3
+          },
+          {
+            "line_index": 18,
+            "station_name": "초지(신안산대학교)",
+            "station_index": 46
+          }
+        ]
+      },
+      {
+        "index": 48,
+        "name": "안산",
+        "lat": 37.327082,
+        "lon": 126.788532,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "안산",
+            "station_index": 47
+          }
+        ]
+      },
+      {
+        "index": 49,
+        "name": "신길온천",
+        "lat": 37.338212,
+        "lon": 126.765844,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "신길온천",
+            "station_index": 48
+          }
+        ]
+      },
+      {
+        "index": 50,
+        "name": "정왕(시화병원)",
+        "lat": 37.351735,
+        "lon": 126.742989,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "정왕(시화병원)",
+            "station_index": 49
+          }
+        ]
+      },
+      {
+        "index": 51,
+        "name": "오이도",
+        "lat": 37.362357,
+        "lon": 126.738714,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "오이도",
+            "station_index": 50
+          }
+        ]
+      },
+      {
+        "index": 52,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 6,
+    "line_name": "수도권 전철 5호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "방화",
+        "lat": 37.577446,
+        "lon": 126.812741,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "개화산",
+        "lat": 37.572399,
+        "lon": 126.806171,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "김포공항",
+        "lat": 37.562384,
+        "lon": 126.801292,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "김포공항",
+            "station_index": 2
+          },
+          {
+            "line_index": 16,
+            "station_name": "김포공항",
+            "station_index": 6
+          },
+          {
+            "line_index": 17,
+            "station_name": "김포공항",
+            "station_index": 15
+          },
+          {
+            "line_index": 22,
+            "station_name": "김포공항",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "송정",
+        "lat": 37.561184,
+        "lon": 126.811973,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "마곡(홈앤쇼핑)",
+        "lat": 37.560183,
+        "lon": 126.825448,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "발산(에스앤유서울병원)",
+        "lat": 37.558598,
+        "lon": 126.837668,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "우장산",
+        "lat": 37.548768,
+        "lon": 126.836318,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "화곡",
+        "lat": 37.541513,
+        "lon": 126.840461,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "까치산",
+        "lat": 37.531768,
+        "lon": 126.846683,
+        "transfer": [
+          {
+            "line_index": 96,
+            "station_name": "까치산",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "신정(은행정)",
+        "lat": 37.524997,
+        "lon": 126.856191,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "목동",
+        "lat": 37.526065,
+        "lon": 126.864931,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "오목교(목동운동장앞)",
+        "lat": 37.524496,
+        "lon": 126.875181,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "양평",
+        "lat": 37.525569,
+        "lon": 126.886129,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "영등포구청",
+        "lat": 37.5242,
+        "lon": 126.89503,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "영등포구청",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "name": "영등포시장",
+        "lat": 37.522669,
+        "lon": 126.905139,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "신길",
+        "lat": 37.517623,
+        "lon": 126.914839,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "신길",
+            "station_index": 42
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "여의도(신한투자증권)",
+        "lat": 37.521747,
+        "lon": 126.924357,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "여의도(신한투자증권)",
+            "station_index": 15
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "여의나루(유진투자증권)",
+        "lat": 37.527098,
+        "lon": 126.932901,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "마포",
+        "lat": 37.539574,
+        "lon": 126.945932,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "공덕",
+        "lat": 37.544431,
+        "lon": 126.951372,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "공덕",
+            "station_index": 17
+          },
+          {
+            "line_index": 14,
+            "station_name": "공덕",
+            "station_index": 25
+          },
+          {
+            "line_index": 16,
+            "station_name": "공덕",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "name": "애오개",
+        "lat": 37.553736,
+        "lon": 126.95682,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "충정로(경기대입구)",
+        "lat": 37.560236,
+        "lon": 126.9629,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "충정로(경기대입구)",
+            "station_index": 43
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "name": "서대문(강북삼성병원)",
+        "lat": 37.565773,
+        "lon": 126.966641,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "광화문(세종문화회관)",
+        "lat": 37.571525,
+        "lon": 126.97717,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "종로3가(탑골공원)",
+        "lat": 37.57254,
+        "lon": 126.990305,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "종로3가",
+            "station_index": 34
+          },
+          {
+            "line_index": 4,
+            "station_name": "종로3가",
+            "station_index": 21
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "name": "을지로4가(케이뱅크)",
+        "lat": 37.567352,
+        "lon": 126.998032,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "을지로4가(케이뱅크)",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "name": "동대문역사문화공원(DDP)",
+        "lat": 37.564665,
+        "lon": 127.005353,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "동대문역사문화공원(DDP)",
+            "station_index": 5
+          },
+          {
+            "line_index": 5,
+            "station_name": "동대문역사문화공원(DDP)",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "청구",
+        "lat": 37.560276,
+        "lon": 127.013639,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "청구",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "name": "신금호",
+        "lat": 37.554548,
+        "lon": 127.020331,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "행당",
+        "lat": 37.557322,
+        "lon": 127.029476,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "왕십리(성동구청)",
+        "lat": 37.56184,
+        "lon": 127.037059,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "왕십리(성동구청)",
+            "station_index": 8
+          },
+          {
+            "line_index": 14,
+            "station_name": "왕십리",
+            "station_index": 33
+          },
+          {
+            "line_index": 18,
+            "station_name": "왕십리",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "name": "마장",
+        "lat": 37.5661,
+        "lon": 127.042973,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "답십리",
+        "lat": 37.566747,
+        "lon": 127.052704,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "장한평",
+        "lat": 37.56144,
+        "lon": 127.064623,
+        "transfer": []
+      },
+      {
+        "index": 35,
+        "name": "군자(능동)",
+        "lat": 37.557088,
+        "lon": 127.079577,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "군자(능동)",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "name": "아차산(어린이대공원후문)",
+        "lat": 37.551691,
+        "lon": 127.089761,
+        "transfer": []
+      },
+      {
+        "index": 37,
+        "name": "광나루(장신대)",
+        "lat": 37.545303,
+        "lon": 127.10357,
+        "transfer": []
+      },
+      {
+        "index": 38,
+        "name": "천호(풍납토성)",
+        "lat": 37.53864,
+        "lon": 127.123308,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "천호(풍납토성)",
+            "station_index": 8
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "name": "강동(강동성심병원)",
+        "lat": 37.535804,
+        "lon": 127.132481,
+        "transfer": [
+          {
+            "line_index": 95,
+            "station_name": "강동(강동성심병원)",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 40,
+        "name": "길동",
+        "lat": 37.537801,
+        "lon": 127.140004,
+        "transfer": []
+      },
+      {
+        "index": 41,
+        "name": "굽은다리(강동구민회관앞)",
+        "lat": 37.545477,
+        "lon": 127.142853,
+        "transfer": []
+      },
+      {
+        "index": 42,
+        "name": "명일",
+        "lat": 37.55137,
+        "lon": 127.143999,
+        "transfer": []
+      },
+      {
+        "index": 43,
+        "name": "고덕(강동경희대병원)",
+        "lat": 37.555004,
+        "lon": 127.154151,
+        "transfer": []
+      },
+      {
+        "index": 44,
+        "name": "상일동",
+        "lat": 37.556712,
+        "lon": 127.166417,
+        "transfer": []
+      },
+      {
+        "index": 45,
+        "name": "강일",
+        "lat": 37.55749,
+        "lon": 127.17593,
+        "transfer": []
+      },
+      {
+        "index": 46,
+        "name": "미사",
+        "lat": 37.560927,
+        "lon": 127.193877,
+        "transfer": []
+      },
+      {
+        "index": 47,
+        "name": "하남풍산",
+        "lat": 37.552034,
+        "lon": 127.203864,
+        "transfer": []
+      },
+      {
+        "index": 48,
+        "name": "하남시청(덕풍·신장)",
+        "lat": 37.54205,
+        "lon": 127.20612,
+        "transfer": []
+      },
+      {
+        "index": 49,
+        "name": "하남검단산",
+        "lat": 37.53972,
+        "lon": 127.22345,
+        "transfer": []
+      },
+      {
+        "index": 50,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 7,
+    "line_name": "서울 지하철 6호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "역촌",
+        "lat": 37.606021,
+        "lon": 126.922744,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "불광",
+        "lat": 37.610873,
+        "lon": 126.92939,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "불광",
+            "station_index": 14
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "독바위",
+        "lat": 37.618456,
+        "lon": 126.933031,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "연신내",
+        "lat": 37.618636,
+        "lon": 126.920625,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "연신내",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "구산",
+        "lat": 37.611377,
+        "lon": 126.91727,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "응암",
+        "lat": 37.598605,
+        "lon": 126.915577,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "새절(신사)",
+        "lat": 37.591148,
+        "lon": 126.913629,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "증산(명지대앞)",
+        "lat": 37.583876,
+        "lon": 126.909645,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "디지털미디어시티",
+        "lat": 37.576108,
+        "lon": 126.901391,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "디지털미디어시티",
+            "station_index": 21
+          },
+          {
+            "line_index": 16,
+            "station_name": "디지털미디어시티",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "월드컵경기장(성산)",
+        "lat": 37.569532,
+        "lon": 126.899298,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "마포구청",
+        "lat": 37.563515,
+        "lon": 126.903343,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "망원",
+        "lat": 37.556094,
+        "lon": 126.910052,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "합정(세아타워)",
+        "lat": 37.549209,
+        "lon": 126.913366,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "합정(세아타워)",
+            "station_index": 38
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "상수",
+        "lat": 37.547716,
+        "lon": 126.922852,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "광흥창(서강)",
+        "lat": 37.547456,
+        "lon": 126.931993,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "대흥(서강대앞)",
+        "lat": 37.547771,
+        "lon": 126.942069,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "공덕",
+        "lat": 37.543555,
+        "lon": 126.951678,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "공덕",
+            "station_index": 20
+          },
+          {
+            "line_index": 14,
+            "station_name": "공덕",
+            "station_index": 25
+          },
+          {
+            "line_index": 16,
+            "station_name": "공덕",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "효창공원앞",
+        "lat": 37.539233,
+        "lon": 126.961384,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "효창공원앞",
+            "station_index": 26
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "name": "삼각지(전쟁기념관)",
+        "lat": 37.535534,
+        "lon": 126.974032,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "삼각지(전쟁기념관)",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "name": "녹사평(용산구청)",
+        "lat": 37.534675,
+        "lon": 126.986695,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "이태원",
+        "lat": 37.534488,
+        "lon": 126.994302,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "한강진",
+        "lat": 37.539631,
+        "lon": 127.001725,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "버티고개",
+        "lat": 37.548013,
+        "lon": 127.007055,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "약수",
+        "lat": 37.554263,
+        "lon": 127.010358,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "약수",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "name": "청구",
+        "lat": 37.560608,
+        "lon": 127.013986,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "청구",
+            "station_index": 28
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "name": "신당",
+        "lat": 37.566154,
+        "lon": 127.016146,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "신당",
+            "station_index": 6
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "name": "동묘앞",
+        "lat": 37.572279,
+        "lon": 127.015653,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "동묘앞",
+            "station_index": 31
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "창신",
+        "lat": 37.579661,
+        "lon": 127.015241,
+        "transfer": []
+      },
+      {
+        "index": 29,
+        "name": "보문",
+        "lat": 37.585274,
+        "lon": 127.019351,
+        "transfer": [
+          {
+            "line_index": 21,
+            "station_name": "보문",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "name": "안암(고대병원앞)",
+        "lat": 37.586272,
+        "lon": 127.029005,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "고려대(종암)",
+        "lat": 37.590508,
+        "lon": 127.036296,
+        "transfer": []
+      },
+      {
+        "index": 32,
+        "name": "월곡(동덕여대)",
+        "lat": 37.601948,
+        "lon": 127.041518,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "상월곡(한국과학기술연구원)",
+        "lat": 37.606377,
+        "lon": 127.048491,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "돌곶이",
+        "lat": 37.610537,
+        "lon": 127.056431,
+        "transfer": []
+      },
+      {
+        "index": 35,
+        "name": "석계",
+        "lat": 37.614872,
+        "lon": 127.065595,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "석계",
+            "station_index": 24
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "name": "태릉입구",
+        "lat": 37.617338,
+        "lon": 127.074735,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "태릉입구",
+            "station_index": 9
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "화랑대(서울여대입구)",
+        "lat": 37.620064,
+        "lon": 127.084689,
+        "transfer": []
+      },
+      {
+        "index": 38,
+        "name": "봉화산(서울의료원)",
+        "lat": 37.617283,
+        "lon": 127.091401,
+        "transfer": []
+      },
+      {
+        "index": 39,
+        "name": "신내",
+        "lat": 37.613174,
+        "lon": 127.102231,
+        "transfer": [
+          {
+            "line_index": 15,
+            "station_name": "신내",
+            "station_index": 6
+          }
+        ]
+      },
+      {
+        "index": 40,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 8,
+    "line_name": "서울 지하철 7호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "장암",
+        "lat": 37.700109,
+        "lon": 127.053196,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "도봉산",
+        "lat": 37.689241,
+        "lon": 127.046509,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "도봉산",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "수락산",
+        "lat": 37.67785,
+        "lon": 127.055315,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "마들",
+        "lat": 37.66494,
+        "lon": 127.057675,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "노원",
+        "lat": 37.654836,
+        "lon": 127.060462,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "노원",
+            "station_index": 6
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "중계(한국성서대)",
+        "lat": 37.644583,
+        "lon": 127.064303,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "하계(을지대을지병원)",
+        "lat": 37.636352,
+        "lon": 127.06799,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "공릉(서울과학기술대)",
+        "lat": 37.625742,
+        "lon": 127.072896,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "태릉입구",
+        "lat": 37.618294,
+        "lon": 127.075397,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "태릉입구",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "먹골",
+        "lat": 37.610637,
+        "lon": 127.077725,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "중화",
+        "lat": 37.602545,
+        "lon": 127.079264,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "상봉(한국열린사이버대)",
+        "lat": 37.595577,
+        "lon": 127.085716,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "상봉",
+            "station_index": 37
+          },
+          {
+            "line_index": 15,
+            "station_name": "상봉",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "name": "면목(서일대입구)",
+        "lat": 37.588579,
+        "lon": 127.087503,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "사가정(녹색병원)",
+        "lat": 37.580894,
+        "lon": 127.088478,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "용마산(용마폭포공원)",
+        "lat": 37.573647,
+        "lon": 127.086727,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "중곡",
+        "lat": 37.565923,
+        "lon": 127.08432,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "군자(능동)",
+        "lat": 37.556897,
+        "lon": 127.079338,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "군자(능동)",
+            "station_index": 35
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "어린이대공원(세종대)",
+        "lat": 37.548014,
+        "lon": 127.074658,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "건대입구",
+        "lat": 37.540786,
+        "lon": 127.071011,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "건대입구",
+            "station_index": 12
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "name": "자양(뚝섬한강공원)",
+        "lat": 37.53154,
+        "lon": 127.066704,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "청담(제일정형외과병원)",
+        "lat": 37.519365,
+        "lon": 127.05335,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "강남구청",
+        "lat": 37.517179,
+        "lon": 127.041255,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "강남구청",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "name": "학동(나누리병원)",
+        "lat": 37.514229,
+        "lon": 127.031656,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "논현",
+        "lat": 37.511093,
+        "lon": 127.021415,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "논현",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "name": "반포",
+        "lat": 37.508178,
+        "lon": 127.011727,
+        "transfer": []
+      },
+      {
+        "index": 26,
+        "name": "고속터미널",
+        "lat": 37.503367,
+        "lon": 127.005068,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "고속터미널",
+            "station_index": 31
+          },
+          {
+            "line_index": 10,
+            "station_name": "고속터미널",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "name": "내방",
+        "lat": 37.487618,
+        "lon": 126.993513,
+        "transfer": []
+      },
+      {
+        "index": 28,
+        "name": "이수(총신대입구)",
+        "lat": 37.485196,
+        "lon": 126.981605,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "이수(총신대입구)",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "name": "남성",
+        "lat": 37.484596,
+        "lon": 126.971251,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "숭실대입구(살피재)",
+        "lat": 37.496029,
+        "lon": 126.953822,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "상도",
+        "lat": 37.502834,
+        "lon": 126.94791,
+        "transfer": []
+      },
+      {
+        "index": 32,
+        "name": "장승배기",
+        "lat": 37.504898,
+        "lon": 126.93915,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "신대방삼거리",
+        "lat": 37.499701,
+        "lon": 126.928276,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "보라매(현대에이치티)",
+        "lat": 37.499872,
+        "lon": 126.920428,
+        "transfer": [
+          {
+            "line_index": 20,
+            "station_name": "보라매",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 35,
+        "name": "신풍",
+        "lat": 37.50008,
+        "lon": 126.90993,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "대림(구로구청)",
+        "lat": 37.493013,
+        "lon": 126.897075,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "대림(구로구청)",
+            "station_index": 33
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "남구로",
+        "lat": 37.486056,
+        "lon": 126.887249,
+        "transfer": []
+      },
+      {
+        "index": 38,
+        "name": "가산디지털단지(마리오아울렛)",
+        "lat": 37.480338,
+        "lon": 126.882656,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "가산디지털단지(마리오아울렛)",
+            "station_index": 46
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "name": "철산",
+        "lat": 37.47605,
+        "lon": 126.867911,
+        "transfer": []
+      },
+      {
+        "index": 40,
+        "name": "광명사거리(우리집)",
+        "lat": 37.479252,
+        "lon": 126.854876,
+        "transfer": []
+      },
+      {
+        "index": 41,
+        "name": "천왕",
+        "lat": 37.486637,
+        "lon": 126.838713,
+        "transfer": []
+      },
+      {
+        "index": 42,
+        "name": "온수(성공회대입구)",
+        "lat": 37.492092,
+        "lon": 126.823023,
+        "transfer": [
+          {
+            "line_index": 2,
+            "station_name": "온수(성공회대)",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 43,
+        "name": "까치울",
+        "lat": 37.50613,
+        "lon": 126.81093,
+        "transfer": []
+      },
+      {
+        "index": 44,
+        "name": "부천종합운동장(부천우리병원)",
+        "lat": 37.50502,
+        "lon": 126.79661,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "부천종합운동장",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "name": "춘의(예손병원)",
+        "lat": 37.50365,
+        "lon": 126.78828,
+        "transfer": []
+      },
+      {
+        "index": 46,
+        "name": "신중동",
+        "lat": 37.50282,
+        "lon": 126.77566,
+        "transfer": []
+      },
+      {
+        "index": 47,
+        "name": "부천시청(삼성탑내과의원)",
+        "lat": 37.50444,
+        "lon": 126.76364,
+        "transfer": []
+      },
+      {
+        "index": 48,
+        "name": "상동(인본병원)",
+        "lat": 37.505814,
+        "lon": 126.753163,
+        "transfer": []
+      },
+      {
+        "index": 49,
+        "name": "삼산체육관(한국만화박물관·웹툰융합센터)",
+        "lat": 37.50724,
+        "lon": 126.74179,
+        "transfer": []
+      },
+      {
+        "index": 50,
+        "name": "굴포천",
+        "lat": 37.50681,
+        "lon": 126.73234,
+        "transfer": []
+      },
+      {
+        "index": 51,
+        "name": "부평구청(세림병원)",
+        "lat": 37.50848,
+        "lon": 126.72077,
+        "transfer": [
+          {
+            "line_index": 11,
+            "station_name": "부평구청(세림병원)",
+            "station_index": 9
+          }
+        ]
+      },
+      {
+        "index": 52,
+        "name": "산곡",
+        "lat": 37.5086,
+        "lon": 126.7035277,
+        "transfer": []
+      },
+      {
+        "index": 53,
+        "name": "석남(거북시장)",
+        "lat": 37.5062285,
+        "lon": 126.6762813,
+        "transfer": [
+          {
+            "line_index": 12,
+            "station_name": "석남(뉴성민병원)",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 54,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 9,
+    "line_name": "서울 지하철 8호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "별내",
+        "lat": 37.6422194,
+        "lon": 127.1272083,
+        "transfer": [
+          {
+            "line_index": 15,
+            "station_name": "별내(삼육대학교)",
+            "station_index": 8
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "다산",
+        "lat": 37.62417,
+        "lon": 127.14972,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "동구릉",
+        "lat": 37.61056,
+        "lon": 127.13806,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "구리(구리전통시장)",
+        "lat": 37.60326,
+        "lon": 127.14337306,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "구리",
+            "station_index": 40
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "장자호수공원",
+        "lat": 37.58722,
+        "lon": 127.13778,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "암사역사공원",
+        "lat": 37.55667,
+        "lon": 127.13556,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "암사",
+        "lat": 37.55021,
+        "lon": 127.127562,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "천호(풍납토성)",
+        "lat": 37.538113,
+        "lon": 127.123254,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "천호(풍납토성)",
+            "station_index": 38
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "강동구청",
+        "lat": 37.530341,
+        "lon": 127.120508,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "몽촌토성(평화의문)",
+        "lat": 37.517409,
+        "lon": 127.112359,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "잠실(송파구청)",
+        "lat": 37.514692,
+        "lon": 127.104338,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "잠실(송파구청)",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "name": "석촌(한솔병원)",
+        "lat": 37.505557,
+        "lon": 127.106832,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "석촌(한솔병원)",
+            "station_index": 33
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "name": "송파",
+        "lat": 37.499703,
+        "lon": 127.112183,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "가락시장",
+        "lat": 37.492888,
+        "lon": 127.118398,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "가락시장",
+            "station_index": 42
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "name": "문정",
+        "lat": 37.485855,
+        "lon": 127.1225,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "장지",
+        "lat": 37.478703,
+        "lon": 127.126191,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "복정",
+        "lat": 37.471052,
+        "lon": 127.126732,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "복정(동서울대학)",
+            "station_index": 14
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "남위례",
+        "lat": 37.4624,
+        "lon": 127.13977,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "산성",
+        "lat": 37.457122,
+        "lon": 127.149908,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "남한산성입구(성남법원·검찰청)",
+        "lat": 37.451535,
+        "lon": 127.159816,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "단대오거리(신구대학교)",
+        "lat": 37.44521,
+        "lon": 127.156866,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "신흥",
+        "lat": 37.440918,
+        "lon": 127.147564,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "수진",
+        "lat": 37.437428,
+        "lon": 127.140722,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "모란",
+        "lat": 37.433824,
+        "lon": 127.129837,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "모란",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 25,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 10,
+    "line_name": "서울 지하철 9호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "개화",
+        "lat": 37.578608,
+        "lon": 126.798153,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "김포공항",
+        "lat": 37.561916,
+        "lon": 126.802152,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "김포공항",
+            "station_index": 3
+          },
+          {
+            "line_index": 16,
+            "station_name": "김포공항",
+            "station_index": 6
+          },
+          {
+            "line_index": 17,
+            "station_name": "김포공항",
+            "station_index": 15
+          },
+          {
+            "line_index": 22,
+            "station_name": "김포공항",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "공항시장",
+        "lat": 37.563726,
+        "lon": 126.810678,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "신방화",
+        "lat": 37.567532,
+        "lon": 126.816601,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "마곡나루(서울식물원)",
+        "lat": 37.566778,
+        "lon": 126.82731,
+        "transfer": [
+          {
+            "line_index": 16,
+            "station_name": "마곡나루",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "양천향교",
+        "lat": 37.568381,
+        "lon": 126.841333,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "가양(부민병원)",
+        "lat": 37.561391,
+        "lon": 126.854456,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "증미(서울고든병원)",
+        "lat": 37.557402,
+        "lon": 126.861939,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "등촌(강서대학교)",
+        "lat": 37.550632,
+        "lon": 126.865689,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "염창",
+        "lat": 37.546936,
+        "lon": 126.874916,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "신목동",
+        "lat": 37.544277,
+        "lon": 126.88308,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "선유도",
+        "lat": 37.53802,
+        "lon": 126.893525,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "당산",
+        "lat": 37.533406,
+        "lon": 126.902809,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "당산",
+            "station_index": 37
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "국회의사당(한국산업은행)",
+        "lat": 37.528105,
+        "lon": 126.917874,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "여의도(신한투자증권)",
+        "lat": 37.52176,
+        "lon": 126.92403,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "여의도(신한투자증권)",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "name": "샛강(KB금융타운)",
+        "lat": 37.517274,
+        "lon": 126.928422,
+        "transfer": [
+          {
+            "line_index": 20,
+            "station_name": "샛강",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "노량진",
+        "lat": 37.513534,
+        "lon": 126.941005,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "노량진",
+            "station_index": 40
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "노들",
+        "lat": 37.512887,
+        "lon": 126.953222,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "흑석(중앙대입구)",
+        "lat": 37.50877,
+        "lon": 126.963708,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "동작(현충원)",
+        "lat": 37.502878,
+        "lon": 126.978153,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "동작(현충원)",
+            "station_index": 26
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "name": "구반포",
+        "lat": 37.501364,
+        "lon": 126.987332,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "신반포",
+        "lat": 37.503415,
+        "lon": 126.995925,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "고속터미널",
+        "lat": 37.50598,
+        "lon": 127.004403,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "고속터미널",
+            "station_index": 31
+          },
+          {
+            "line_index": 8,
+            "station_name": "고속터미널",
+            "station_index": 26
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "name": "사평",
+        "lat": 37.504206,
+        "lon": 127.015259,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "신논현",
+        "lat": 37.504598,
+        "lon": 127.02506,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "신논현",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "name": "언주",
+        "lat": 37.507287,
+        "lon": 127.033868,
+        "transfer": []
+      },
+      {
+        "index": 27,
+        "name": "선정릉",
+        "lat": 37.510297,
+        "lon": 127.043999,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "선정릉",
+            "station_index": 6
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "삼성중앙",
+        "lat": 37.513011,
+        "lon": 127.053282,
+        "transfer": []
+      },
+      {
+        "index": 29,
+        "name": "봉은사",
+        "lat": 37.514219,
+        "lon": 127.060245,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "종합운동장",
+        "lat": 37.511426,
+        "lon": 127.076275,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "종합운동장",
+            "station_index": 18
+          }
+        ]
+      },
+      {
+        "index": 31,
+        "name": "삼전",
+        "lat": 37.504738,
+        "lon": 127.088025,
+        "transfer": []
+      },
+      {
+        "index": 32,
+        "name": "석촌고분",
+        "lat": 37.502558,
+        "lon": 127.097033,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "석촌(한솔병원)",
+        "lat": 37.505208,
+        "lon": 127.10704,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "석촌(한솔병원)",
+            "station_index": 12
+          }
+        ]
+      },
+      {
+        "index": 34,
+        "name": "송파나루",
+        "lat": 37.510372,
+        "lon": 127.112216,
+        "transfer": []
+      },
+      {
+        "index": 35,
+        "name": "한성백제",
+        "lat": 37.516404,
+        "lon": 127.116503,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "올림픽공원(한국체대)",
+        "lat": 37.516269,
+        "lon": 127.130288,
+        "transfer": [
+          {
+            "line_index": 95,
+            "station_name": "올림픽공원(한국체대)",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "둔촌오륜",
+        "lat": 37.519683,
+        "lon": 127.137989,
+        "transfer": []
+      },
+      {
+        "index": 38,
+        "name": "중앙보훈병원",
+        "lat": 37.529191,
+        "lon": 127.148739,
+        "transfer": []
+      },
+      {
+        "index": 39,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 11,
+    "line_name": "인천 도시철도 1호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "계양",
+        "lat": 37.571449,
+        "lon": 126.73578,
+        "transfer": [
+          {
+            "line_index": 16,
+            "station_name": "계양",
+            "station_index": 7
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "귤현",
+        "lat": 37.566379,
+        "lon": 126.742654,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "박촌",
+        "lat": 37.553703,
+        "lon": 126.745077,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "임학",
+        "lat": 37.545059,
+        "lon": 126.738665,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "계산(경인여자대학교)",
+        "lat": 37.543238,
+        "lon": 126.728128,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "경인교대입구(상록호텔조리직업전문학교)",
+        "lat": 37.538157,
+        "lon": 126.722597,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "작전(인천세종병원)",
+        "lat": 37.530415,
+        "lon": 126.722527,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "갈산",
+        "lat": 37.517268,
+        "lon": 126.721514,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "부평구청(세림병원)",
+        "lat": 37.508407,
+        "lon": 126.720555,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "부평구청(세림병원)",
+            "station_index": 51
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "부평시장(한길안과병원)",
+        "lat": 37.498383,
+        "lon": 126.722244,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "부평(부평힘찬병원)",
+        "lat": 37.490535,
+        "lon": 126.723453,
+        "transfer": [
+          {
+            "line_index": 2,
+            "station_name": "부평(가톨릭대 인천성모병원)",
+            "station_index": 12
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "name": "동수",
+        "lat": 37.485312,
+        "lon": 126.718247,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "부평삼거리",
+        "lat": 37.477679,
+        "lon": 126.710208,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "간석오거리",
+        "lat": 37.467048,
+        "lon": 126.707938,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "인천시청(연세와병원)",
+        "lat": 37.457263,
+        "lon": 126.702143,
+        "transfer": [
+          {
+            "line_index": 12,
+            "station_name": "인천시청",
+            "station_index": 21
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "name": "예술회관(대찬병원)",
+        "lat": 37.449396,
+        "lon": 126.701012,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "인천터미널(푸른세상안과)",
+        "lat": 37.442383,
+        "lon": 126.699706,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "문학경기장(그랜드오스티엄웨딩컨벤션)",
+        "lat": 37.434935,
+        "lon": 126.698579,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "선학",
+        "lat": 37.426684,
+        "lon": 126.698863,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "신연수(가천대학교 메디컬캠퍼스)",
+        "lat": 37.41804,
+        "lon": 126.693863,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "원인재",
+        "lat": 37.412333,
+        "lon": 126.687869,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "원인재",
+            "station_index": 57
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "동춘(스퀘어원)",
+        "lat": 37.404737,
+        "lon": 126.681015,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "동막(저어새 생태학습관)",
+        "lat": 37.397878,
+        "lon": 126.674005,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "캠퍼스타운(연세대학교)",
+        "lat": 37.387855,
+        "lon": 126.661673,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "테크노파크(현대프리미엄아울렛 송도점)",
+        "lat": 37.382268,
+        "lon": 126.656365,
+        "transfer": []
+      },
+      {
+        "index": 26,
+        "name": "지식정보단지",
+        "lat": 37.378384,
+        "lon": 126.645168,
+        "transfer": []
+      },
+      {
+        "index": 27,
+        "name": "인천대입구(송도컨벤시아)",
+        "lat": 37.386007,
+        "lon": 126.639484,
+        "transfer": []
+      },
+      {
+        "index": 28,
+        "name": "센트럴파크(포스코이앤씨)",
+        "lat": 37.393054,
+        "lon": 126.634729,
+        "transfer": []
+      },
+      {
+        "index": 29,
+        "name": "국제업무지구(센트로드)",
+        "lat": 37.399907,
+        "lon": 126.630347,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "송도달빛축제공원",
+        "lat": 37.407143,
+        "lon": 126.62597,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 12,
+    "line_name": "인천 도시철도 2호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "검단오류(검단산업단지)",
+        "lat": 37.594877,
+        "lon": 126.627178,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "왕길(왕길역 로열파크씨티)",
+        "lat": 37.59518,
+        "lon": 126.642696,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "검단사거리(검단수한방병원)",
+        "lat": 37.60185,
+        "lon": 126.657108,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "마전",
+        "lat": 37.597566,
+        "lon": 126.666998,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "완정(검단탑종합병원)",
+        "lat": 37.592928,
+        "lon": 126.673203,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "독정(로열파크씨티)",
+        "lat": 37.585212,
+        "lon": 126.675844,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "검암(검암역 로열파크씨티)",
+        "lat": 37.56866,
+        "lon": 126.675687,
+        "transfer": [
+          {
+            "line_index": 16,
+            "station_name": "검암(한국환경공단)",
+            "station_index": 8
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "name": "검바위",
+        "lat": 37.561405,
+        "lon": 126.677566,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "아시아드경기장(공촌사거리)",
+        "lat": 37.5517,
+        "lon": 126.677122,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "서구청(가톨릭관동대학교 국제성모병원)",
+        "lat": 37.543742,
+        "lon": 126.676787,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "가정(닥터에버스의원 청라점)",
+        "lat": 37.524649,
+        "lon": 126.675539,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "가정중앙시장(인천참사랑병원)",
+        "lat": 37.517054,
+        "lon": 126.676672,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "석남(뉴성민병원)",
+        "lat": 37.506193,
+        "lon": 126.676203,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "석남(거북시장)",
+            "station_index": 53
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "서부여성회관(그린산부인과)",
+        "lat": 37.500168,
+        "lon": 126.675795,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "인천가좌(나은병원)",
+        "lat": 37.4897,
+        "lon": 126.675208,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "가재울",
+        "lat": 37.484192,
+        "lon": 126.683673,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "주안국가산단(인천J밸리)",
+        "lat": 37.473703,
+        "lon": 126.68113,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "주안(인천사랑병원)",
+        "lat": 37.464992,
+        "lon": 126.679098,
+        "transfer": [
+          {
+            "line_index": 2,
+            "station_name": "주안(인천사랑병원)",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "name": "시민공원(아인병원)",
+        "lat": 37.458335,
+        "lon": 126.681192,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "석바위시장",
+        "lat": 37.457611,
+        "lon": 126.692575,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "인천시청",
+        "lat": 37.456833,
+        "lon": 126.701306,
+        "transfer": [
+          {
+            "line_index": 11,
+            "station_name": "인천시청(연세와병원)",
+            "station_index": 15
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "석천사거리(뉴욕치과의원)",
+        "lat": 37.456805,
+        "lon": 126.709986,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "모래내시장(서울바른척도병원)",
+        "lat": 37.45583,
+        "lon": 126.719298,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "만수",
+        "lat": 37.454911,
+        "lon": 126.732094,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "남동구청(인천도시공사)",
+        "lat": 37.448161,
+        "lon": 126.736939,
+        "transfer": []
+      },
+      {
+        "index": 26,
+        "name": "인천대공원",
+        "lat": 37.448769,
+        "lon": 126.752618,
+        "transfer": []
+      },
+      {
+        "index": 27,
+        "name": "운연(서창)",
+        "lat": 37.440127,
+        "lon": 126.75997,
+        "transfer": []
+      },
+      {
+        "index": 28,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 13,
+    "line_name": "수도권 전철 경강선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "판교",
+        "lat": 37.394761,
+        "lon": 127.111217,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "판교(판교테크노밸리)",
+            "station_index": 8
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "성남",
+        "lat": 37.39468,
+        "lon": 127.11945,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "이매",
+        "lat": 37.394655,
+        "lon": 127.127819,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "이매(성남아트센터)",
+            "station_index": 19
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "삼동",
+        "lat": 37.409522,
+        "lon": 127.20336,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "경기광주",
+        "lat": 37.399907,
+        "lon": 127.25263,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "초월",
+        "lat": 37.374419,
+        "lon": 127.299,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "곤지암(동원대)",
+        "lat": 37.351315,
+        "lon": 127.34674,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "신둔도예촌(한국관광대)",
+        "lat": 37.317185,
+        "lon": 127.40476,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "이천",
+        "lat": 37.265579,
+        "lon": 127.44226,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "부발",
+        "lat": 37.260192,
+        "lon": 127.490277,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "세종대왕릉",
+        "lat": 37.295309,
+        "lon": 127.570938,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "여주(여주대)",
+        "lat": 37.282308,
+        "lon": 127.628816,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 14,
+    "line_name": "수도권 전철 경의중앙선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "임진강",
+        "lat": 37.888421,
+        "lon": 126.746765,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "운천",
+        "lat": 37.879942,
+        "lon": 126.769999,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "문산",
+        "lat": 37.854619,
+        "lon": 126.788047,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "파주",
+        "lat": 37.815298,
+        "lon": 126.792783,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "월롱(서영대학교)",
+        "lat": 37.796188,
+        "lon": 126.792587,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "금촌",
+        "lat": 37.766217,
+        "lon": 126.774644,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "금릉",
+        "lat": 37.751322,
+        "lon": 126.765347,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "운정",
+        "lat": 37.725826,
+        "lon": 126.767257,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "야당",
+        "lat": 37.712327,
+        "lon": 126.761356,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "탄현",
+        "lat": 37.694023,
+        "lon": 126.761086,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "일산",
+        "lat": 37.682077,
+        "lon": 126.769846,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "일산",
+            "station_index": 21
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "name": "풍산",
+        "lat": 37.672346,
+        "lon": 126.786243,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "풍산",
+            "station_index": 20
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "name": "백마",
+        "lat": 37.658239,
+        "lon": 126.794461,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "백마",
+            "station_index": 19
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "곡산",
+        "lat": 37.645676,
+        "lon": 126.801762,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "곡산",
+            "station_index": 18
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "name": "대곡",
+        "lat": 37.63191,
+        "lon": 126.81113,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "대곡",
+            "station_index": 6
+          },
+          {
+            "line_index": 17,
+            "station_name": "대곡",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "name": "능곡",
+        "lat": 37.618808,
+        "lon": 126.820783,
+        "transfer": [
+          {
+            "line_index": 17,
+            "station_name": "능곡",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "행신",
+        "lat": 37.612102,
+        "lon": 126.834146,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "강매(루트로닉)",
+        "lat": 37.612314,
+        "lon": 126.843223,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "한국항공대",
+        "lat": 37.602888,
+        "lon": 126.868387,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "수색",
+        "lat": 37.580842,
+        "lon": 126.895611,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "디지털미디어시티",
+        "lat": 37.577475,
+        "lon": 126.900453,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "디지털미디어시티",
+            "station_index": 9
+          },
+          {
+            "line_index": 16,
+            "station_name": "디지털미디어시티",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "가좌",
+        "lat": 37.568491,
+        "lon": 126.915487,
+        "transfer": [
+          {
+            "line_index": 94,
+            "station_name": "가좌",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "name": "홍대입구",
+        "lat": 37.557641,
+        "lon": 126.926683,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "홍대입구",
+            "station_index": 39
+          },
+          {
+            "line_index": 16,
+            "station_name": "홍대입구",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "name": "서강대",
+        "lat": 37.551881,
+        "lon": 126.935711,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "공덕",
+        "lat": 37.542596,
+        "lon": 126.952099,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "공덕",
+            "station_index": 20
+          },
+          {
+            "line_index": 7,
+            "station_name": "공덕",
+            "station_index": 17
+          },
+          {
+            "line_index": 16,
+            "station_name": "공덕",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 26,
+        "name": "효창공원앞",
+        "lat": 37.538579,
+        "lon": 126.96221,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "효창공원앞",
+            "station_index": 18
+          }
+        ]
+      },
+      {
+        "index": 27,
+        "name": "용산",
+        "lat": 37.529849,
+        "lon": 126.964561,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "용산",
+            "station_index": 39
+          }
+        ]
+      },
+      {
+        "index": 28,
+        "name": "이촌",
+        "lat": 37.522427,
+        "lon": 126.973406,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "이촌(국립중앙박물관)",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 29,
+        "name": "서빙고",
+        "lat": 37.519594,
+        "lon": 126.988537,
+        "transfer": []
+      },
+      {
+        "index": 30,
+        "name": "한남",
+        "lat": 37.52943,
+        "lon": 127.009169,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "옥수",
+        "lat": 37.540446,
+        "lon": 127.018672,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "옥수",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 32,
+        "name": "응봉",
+        "lat": 37.549946,
+        "lon": 127.034538,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "왕십리",
+        "lat": 37.561827,
+        "lon": 127.038352,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "왕십리(성동구청)",
+            "station_index": 8
+          },
+          {
+            "line_index": 6,
+            "station_name": "왕십리(성동구청)",
+            "station_index": 31
+          },
+          {
+            "line_index": 18,
+            "station_name": "왕십리",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 34,
+        "name": "청량리",
+        "lat": 37.580759,
+        "lon": 127.0483,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "청량리(서울시립대입구)",
+            "station_index": 28
+          },
+          {
+            "line_index": 15,
+            "station_name": "청량리",
+            "station_index": 1
+          },
+          {
+            "line_index": 18,
+            "station_name": "청량리",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 35,
+        "name": "회기(경희대)",
+        "lat": 37.58946,
+        "lon": 127.057583,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "회기(경희대)",
+            "station_index": 27
+          },
+          {
+            "line_index": 15,
+            "station_name": "회기(경희대)",
+            "station_index": 2
+          }
+        ]
+      },
+      {
+        "index": 36,
+        "name": "중랑",
+        "lat": 37.594917,
+        "lon": 127.076116,
+        "transfer": [
+          {
+            "line_index": 15,
+            "station_name": "중랑",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 37,
+        "name": "상봉",
+        "lat": 37.596678,
+        "lon": 127.08504,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "상봉(한국열린사이버대)",
+            "station_index": 12
+          },
+          {
+            "line_index": 15,
+            "station_name": "상봉",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 38,
+        "name": "망우",
+        "lat": 37.59955,
+        "lon": 127.091909,
+        "transfer": [
+          {
+            "line_index": 15,
+            "station_name": "망우",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 39,
+        "name": "양원",
+        "lat": 37.606596,
+        "lon": 127.107906,
+        "transfer": []
+      },
+      {
+        "index": 40,
+        "name": "구리",
+        "lat": 37.603392,
+        "lon": 127.143869,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "구리(구리전통시장)",
+            "station_index": 4
+          }
+        ]
+      },
+      {
+        "index": 41,
+        "name": "도농",
+        "lat": 37.608806,
+        "lon": 127.161153,
+        "transfer": []
+      },
+      {
+        "index": 42,
+        "name": "양정",
+        "lat": 37.60533,
+        "lon": 127.19364,
+        "transfer": []
+      },
+      {
+        "index": 43,
+        "name": "덕소",
+        "lat": 37.586781,
+        "lon": 127.208832,
+        "transfer": []
+      },
+      {
+        "index": 44,
+        "name": "도심",
+        "lat": 37.579622,
+        "lon": 127.222672,
+        "transfer": []
+      },
+      {
+        "index": 45,
+        "name": "팔당",
+        "lat": 37.547371,
+        "lon": 127.243939,
+        "transfer": []
+      },
+      {
+        "index": 46,
+        "name": "운길산",
+        "lat": 37.554669,
+        "lon": 127.310115,
+        "transfer": []
+      },
+      {
+        "index": 47,
+        "name": "양수",
+        "lat": 37.545981,
+        "lon": 127.329098,
+        "transfer": []
+      },
+      {
+        "index": 48,
+        "name": "신원",
+        "lat": 37.525545,
+        "lon": 127.372921,
+        "transfer": []
+      },
+      {
+        "index": 49,
+        "name": "국수",
+        "lat": 37.516169,
+        "lon": 127.399367,
+        "transfer": []
+      },
+      {
+        "index": 50,
+        "name": "아신",
+        "lat": 37.51382,
+        "lon": 127.443173,
+        "transfer": []
+      },
+      {
+        "index": 51,
+        "name": "오빈",
+        "lat": 37.506062,
+        "lon": 127.473868,
+        "transfer": []
+      },
+      {
+        "index": 52,
+        "name": "양평",
+        "lat": 37.492773,
+        "lon": 127.491837,
+        "transfer": []
+      },
+      {
+        "index": 53,
+        "name": "원덕",
+        "lat": 37.468672,
+        "lon": 127.547076,
+        "transfer": []
+      },
+      {
+        "index": 54,
+        "name": "용문",
+        "lat": 37.48223,
+        "lon": 127.594647,
+        "transfer": []
+      },
+      {
+        "index": 55,
+        "name": "지평",
+        "lat": 37.476393,
+        "lon": 127.629874,
+        "transfer": []
+      },
+      {
+        "index": 56,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 15,
+    "line_name": "수도권 전철 경춘선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "청량리",
+        "lat": 37.580759,
+        "lon": 127.0483,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "청량리(서울시립대입구)",
+            "station_index": 28
+          },
+          {
+            "line_index": 14,
+            "station_name": "청량리",
+            "station_index": 34
+          },
+          {
+            "line_index": 18,
+            "station_name": "청량리",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "회기(경희대)",
+        "lat": 37.58946,
+        "lon": 127.057583,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "회기(경희대)",
+            "station_index": 27
+          },
+          {
+            "line_index": 14,
+            "station_name": "회기(경희대)",
+            "station_index": 35
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "중랑",
+        "lat": 37.594917,
+        "lon": 127.076116,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "중랑",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "상봉",
+        "lat": 37.595577,
+        "lon": 127.085716,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "상봉(한국열린사이버대)",
+            "station_index": 12
+          },
+          {
+            "line_index": 14,
+            "station_name": "상봉",
+            "station_index": 37
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "망우",
+        "lat": 37.59955,
+        "lon": 127.091909,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "망우",
+            "station_index": 38
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "신내",
+        "lat": 37.612887,
+        "lon": 127.103218,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "신내",
+            "station_index": 39
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "갈매",
+        "lat": 37.634118,
+        "lon": 127.114757,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "별내(삼육대학교)",
+        "lat": 37.64202,
+        "lon": 127.12684,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "별내",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "퇴계원",
+        "lat": 37.648311,
+        "lon": 127.143952,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "사릉",
+        "lat": 37.65108,
+        "lon": 127.176933,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "금곡",
+        "lat": 37.637382,
+        "lon": 127.207853,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "평내호평",
+        "lat": 37.653225,
+        "lon": 127.244493,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "천마산",
+        "lat": 37.658978,
+        "lon": 127.285379,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "마석",
+        "lat": 37.652782,
+        "lon": 127.311767,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "대성리",
+        "lat": 37.684071,
+        "lon": 127.379319,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "청평",
+        "lat": 37.735488,
+        "lon": 127.42661,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "상천",
+        "lat": 37.770246,
+        "lon": 127.454821,
+        "transfer": []
+      },
+      {
+        "index": 18,
+        "name": "가평",
+        "lat": 37.814536,
+        "lon": 127.510739,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "굴봉산",
+        "lat": 37.832067,
+        "lon": 127.557695,
+        "transfer": []
+      },
+      {
+        "index": 20,
+        "name": "백양리(엘리시안강촌)",
+        "lat": 37.830779,
+        "lon": 127.58933,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "강촌",
+        "lat": 37.805723,
+        "lon": 127.634146,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "김유정",
+        "lat": 37.818466,
+        "lon": 127.71434,
+        "transfer": []
+      },
+      {
+        "index": 23,
+        "name": "남춘천(강원대)",
+        "lat": 37.864007,
+        "lon": 127.723792,
+        "transfer": []
+      },
+      {
+        "index": 24,
+        "name": "춘천(한림대)",
+        "lat": 37.885054,
+        "lon": 127.717023,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 16,
+    "line_name": "인천국제공항철도",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "서울",
+        "lat": 37.553247,
+        "lon": 126.969769,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "서울",
+            "station_index": 37
+          },
+          {
+            "line_index": 5,
+            "station_name": "서울",
+            "station_index": 21
+          },
+          {
+            "line_index": 94,
+            "station_name": "서울",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "공덕",
+        "lat": 37.54253,
+        "lon": 126.952024,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "공덕",
+            "station_index": 20
+          },
+          {
+            "line_index": 7,
+            "station_name": "공덕",
+            "station_index": 17
+          },
+          {
+            "line_index": 14,
+            "station_name": "공덕",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "홍대입구",
+        "lat": 37.557438,
+        "lon": 126.926715,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "홍대입구",
+            "station_index": 39
+          },
+          {
+            "line_index": 14,
+            "station_name": "홍대입구",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "디지털미디어시티",
+        "lat": 37.576958,
+        "lon": 126.898609,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "디지털미디어시티",
+            "station_index": 9
+          },
+          {
+            "line_index": 14,
+            "station_name": "디지털미디어시티",
+            "station_index": 21
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "마곡나루",
+        "lat": 37.565543,
+        "lon": 126.827378,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "마곡나루(서울식물원)",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "김포공항",
+        "lat": 37.561842,
+        "lon": 126.801904,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "김포공항",
+            "station_index": 3
+          },
+          {
+            "line_index": 10,
+            "station_name": "김포공항",
+            "station_index": 2
+          },
+          {
+            "line_index": 17,
+            "station_name": "김포공항",
+            "station_index": 15
+          },
+          {
+            "line_index": 22,
+            "station_name": "김포공항",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "계양",
+        "lat": 37.571662,
+        "lon": 126.7363,
+        "transfer": [
+          {
+            "line_index": 11,
+            "station_name": "계양",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "name": "검암(한국환경공단)",
+        "lat": 37.569098,
+        "lon": 126.674007,
+        "transfer": [
+          {
+            "line_index": 12,
+            "station_name": "검암(검암역 로열파크씨티)",
+            "station_index": 7
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "청라국제도시(하나금융타운)",
+        "lat": 37.556409,
+        "lon": 126.624648,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "영종",
+        "lat": 37.51202,
+        "lon": 126.524254,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "운서",
+        "lat": 37.492904,
+        "lon": 126.49379,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "공항화물청사",
+        "lat": 37.459041,
+        "lon": 126.477516,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "인천공항1터미널",
+        "lat": 37.447464,
+        "lon": 126.452508,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "인천공항2터미널",
+        "lat": 37.460699,
+        "lon": 126.441442,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 17,
+    "line_name": "수도권 전철 서해선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "원시",
+        "lat": 37.302371,
+        "lon": 126.786691,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "시우",
+        "lat": 37.31321,
+        "lon": 126.796261,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "초지",
+        "lat": 37.319619,
+        "lon": 126.808147,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "초지(신안산대학교)",
+            "station_index": 47
+          },
+          {
+            "line_index": 18,
+            "station_name": "초지(신안산대학교)",
+            "station_index": 46
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "선부(한도병원)",
+        "lat": 37.334353,
+        "lon": 126.809904,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "달미",
+        "lat": 37.348847,
+        "lon": 126.809409,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "시흥능곡",
+        "lat": 37.369864,
+        "lon": 126.808573,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "시흥시청",
+        "lat": 37.382223,
+        "lon": 126.805625,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "신현",
+        "lat": 37.409008,
+        "lon": 126.788017,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "신천",
+        "lat": 37.439066,
+        "lon": 126.786788,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "시흥대야",
+        "lat": 37.450145,
+        "lon": 126.793041,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "소새울",
+        "lat": 37.468467,
+        "lon": 126.797252,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "소사(서울신대)",
+        "lat": 37.483279,
+        "lon": 126.795023,
+        "transfer": [
+          {
+            "line_index": 2,
+            "station_name": "소사(서울신대)",
+            "station_index": 7
+          }
+        ]
+      },
+      {
+        "index": 13,
+        "name": "부천종합운동장",
+        "lat": 37.505457,
+        "lon": 126.797289,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "부천종합운동장(부천우리병원)",
+            "station_index": 44
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "원종",
+        "lat": 37.5239,
+        "lon": 126.8049,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "김포공항",
+        "lat": 37.5617,
+        "lon": 126.8041,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "김포공항",
+            "station_index": 3
+          },
+          {
+            "line_index": 10,
+            "station_name": "김포공항",
+            "station_index": 2
+          },
+          {
+            "line_index": 16,
+            "station_name": "김포공항",
+            "station_index": 6
+          },
+          {
+            "line_index": 22,
+            "station_name": "김포공항",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 16,
+        "name": "능곡",
+        "lat": 37.618808,
+        "lon": 126.820783,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "능곡",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 17,
+        "name": "대곡",
+        "lat": 37.63191,
+        "lon": 126.81113,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "대곡",
+            "station_index": 6
+          },
+          {
+            "line_index": 14,
+            "station_name": "대곡",
+            "station_index": 15
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "곡산",
+        "lat": 37.645676,
+        "lon": 126.801762,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "곡산",
+            "station_index": 14
+          }
+        ]
+      },
+      {
+        "index": 19,
+        "name": "백마",
+        "lat": 37.658239,
+        "lon": 126.794461,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "백마",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "name": "풍산",
+        "lat": 37.672346,
+        "lon": 126.786243,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "풍산",
+            "station_index": 12
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "name": "일산",
+        "lat": 37.682077,
+        "lon": 126.769846,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "일산",
+            "station_index": 11
+          }
+        ]
+      },
+      {
+        "index": 22,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 18,
+    "line_name": "수도권 전철 수인·분당선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "청량리",
+        "lat": 37.580759,
+        "lon": 127.0483,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "청량리(서울시립대입구)",
+            "station_index": 28
+          },
+          {
+            "line_index": 14,
+            "station_name": "청량리",
+            "station_index": 34
+          },
+          {
+            "line_index": 15,
+            "station_name": "청량리",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "왕십리",
+        "lat": 37.56184,
+        "lon": 127.037059,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "왕십리(성동구청)",
+            "station_index": 8
+          },
+          {
+            "line_index": 6,
+            "station_name": "왕십리(성동구청)",
+            "station_index": 31
+          },
+          {
+            "line_index": 14,
+            "station_name": "왕십리",
+            "station_index": 33
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "서울숲(에스엠타운)",
+        "lat": 37.543617,
+        "lon": 127.044707,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "압구정로데오",
+        "lat": 37.527381,
+        "lon": 127.040534,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "강남구청",
+        "lat": 37.517469,
+        "lon": 127.041151,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "강남구청",
+            "station_index": 22
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "선정릉",
+        "lat": 37.510735,
+        "lon": 127.043677,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "선정릉",
+            "station_index": 27
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "name": "선릉",
+        "lat": 37.504856,
+        "lon": 127.048807,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "선릉(애큐온저축은행)",
+            "station_index": 20
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "name": "한티",
+        "lat": 37.496237,
+        "lon": 127.052873,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "도곡",
+        "lat": 37.491224,
+        "lon": 127.055186,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "도곡",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "구룡",
+        "lat": 37.486839,
+        "lon": 127.058856,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "개포동",
+        "lat": 37.489116,
+        "lon": 127.06614,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "대모산입구",
+        "lat": 37.491373,
+        "lon": 127.07272,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "수서",
+        "lat": 37.487472,
+        "lon": 127.101422,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "수서",
+            "station_index": 41
+          }
+        ]
+      },
+      {
+        "index": 14,
+        "name": "복정(동서울대학)",
+        "lat": 37.470345,
+        "lon": 127.126658,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "복정",
+            "station_index": 17
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "name": "가천대",
+        "lat": 37.448605,
+        "lon": 127.126697,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "태평",
+        "lat": 37.440019,
+        "lon": 127.127709,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "모란",
+        "lat": 37.432052,
+        "lon": 127.129104,
+        "transfer": [
+          {
+            "line_index": 9,
+            "station_name": "모란",
+            "station_index": 24
+          }
+        ]
+      },
+      {
+        "index": 18,
+        "name": "야탑",
+        "lat": 37.411185,
+        "lon": 127.128715,
+        "transfer": []
+      },
+      {
+        "index": 19,
+        "name": "이매(성남아트센터)",
+        "lat": 37.395371,
+        "lon": 127.128248,
+        "transfer": [
+          {
+            "line_index": 13,
+            "station_name": "이매",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 20,
+        "name": "서현",
+        "lat": 37.385126,
+        "lon": 127.123592,
+        "transfer": []
+      },
+      {
+        "index": 21,
+        "name": "수내",
+        "lat": 37.378455,
+        "lon": 127.114322,
+        "transfer": []
+      },
+      {
+        "index": 22,
+        "name": "정자",
+        "lat": 37.365994,
+        "lon": 127.10807,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "정자",
+            "station_index": 9
+          }
+        ]
+      },
+      {
+        "index": 23,
+        "name": "미금(분당서울대병원)",
+        "lat": 37.350077,
+        "lon": 127.10891,
+        "transfer": [
+          {
+            "line_index": 19,
+            "station_name": "미금(분당서울대병원)",
+            "station_index": 10
+          }
+        ]
+      },
+      {
+        "index": 24,
+        "name": "오리",
+        "lat": 37.339824,
+        "lon": 127.108942,
+        "transfer": []
+      },
+      {
+        "index": 25,
+        "name": "죽전(단국대)",
+        "lat": 37.324753,
+        "lon": 127.107395,
+        "transfer": []
+      },
+      {
+        "index": 26,
+        "name": "보정",
+        "lat": 37.312752,
+        "lon": 127.108196,
+        "transfer": []
+      },
+      {
+        "index": 27,
+        "name": "구성",
+        "lat": 37.298969,
+        "lon": 127.105664,
+        "transfer": []
+      },
+      {
+        "index": 28,
+        "name": "신갈",
+        "lat": 37.286102,
+        "lon": 127.111313,
+        "transfer": []
+      },
+      {
+        "index": 29,
+        "name": "기흥(백남준아트센터)",
+        "lat": 37.275061,
+        "lon": 127.11591,
+        "transfer": [
+          {
+            "line_index": 23,
+            "station_name": "기흥(백남준아트센터)",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 30,
+        "name": "상갈(루터대학교)",
+        "lat": 37.26181,
+        "lon": 127.108847,
+        "transfer": []
+      },
+      {
+        "index": 31,
+        "name": "청명",
+        "lat": 37.259489,
+        "lon": 127.078934,
+        "transfer": []
+      },
+      {
+        "index": 32,
+        "name": "영통(경희대)",
+        "lat": 37.251568,
+        "lon": 127.071394,
+        "transfer": []
+      },
+      {
+        "index": 33,
+        "name": "망포",
+        "lat": 37.245795,
+        "lon": 127.057353,
+        "transfer": []
+      },
+      {
+        "index": 34,
+        "name": "매탄권선",
+        "lat": 37.252759,
+        "lon": 127.040566,
+        "transfer": []
+      },
+      {
+        "index": 35,
+        "name": "수원시청(경기아트센터)",
+        "lat": 37.261911,
+        "lon": 127.030736,
+        "transfer": []
+      },
+      {
+        "index": 36,
+        "name": "매교",
+        "lat": 37.265481,
+        "lon": 127.015678,
+        "transfer": []
+      },
+      {
+        "index": 37,
+        "name": "수원",
+        "lat": 37.265917,
+        "lon": 126.999422,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "수원",
+            "station_index": 59
+          }
+        ]
+      },
+      {
+        "index": 38,
+        "name": "고색",
+        "lat": 37.24963,
+        "lon": 126.980248,
+        "transfer": []
+      },
+      {
+        "index": 39,
+        "name": "오목천(수원여대)",
+        "lat": 37.24304,
+        "lon": 126.963676,
+        "transfer": []
+      },
+      {
+        "index": 40,
+        "name": "어천",
+        "lat": 37.250102,
+        "lon": 126.90879,
+        "transfer": []
+      },
+      {
+        "index": 41,
+        "name": "야목",
+        "lat": 37.264179,
+        "lon": 126.879483,
+        "transfer": []
+      },
+      {
+        "index": 42,
+        "name": "사리",
+        "lat": 37.28998,
+        "lon": 126.85685,
+        "transfer": []
+      },
+      {
+        "index": 43,
+        "name": "한대앞",
+        "lat": 37.309689,
+        "lon": 126.85344,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "한대앞",
+            "station_index": 44
+          }
+        ]
+      },
+      {
+        "index": 44,
+        "name": "중앙(서울예술대학교)",
+        "lat": 37.315941,
+        "lon": 126.838573,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "중앙(서울예술대학교)",
+            "station_index": 45
+          }
+        ]
+      },
+      {
+        "index": 45,
+        "name": "고잔(고대안산병원)",
+        "lat": 37.316784,
+        "lon": 126.823144,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "고잔(고대안산병원)",
+            "station_index": 46
+          }
+        ]
+      },
+      {
+        "index": 46,
+        "name": "초지(신안산대학교)",
+        "lat": 37.319619,
+        "lon": 126.808147,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "초지(신안산대학교)",
+            "station_index": 47
+          },
+          {
+            "line_index": 17,
+            "station_name": "초지",
+            "station_index": 3
+          }
+        ]
+      },
+      {
+        "index": 47,
+        "name": "안산",
+        "lat": 37.327082,
+        "lon": 126.788532,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "안산",
+            "station_index": 48
+          }
+        ]
+      },
+      {
+        "index": 48,
+        "name": "신길온천",
+        "lat": 37.338212,
+        "lon": 126.765844,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "신길온천",
+            "station_index": 49
+          }
+        ]
+      },
+      {
+        "index": 49,
+        "name": "정왕(시화병원)",
+        "lat": 37.351735,
+        "lon": 126.742989,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "정왕(시화병원)",
+            "station_index": 50
+          }
+        ]
+      },
+      {
+        "index": 50,
+        "name": "오이도",
+        "lat": 37.362357,
+        "lon": 126.738714,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "오이도",
+            "station_index": 51
+          }
+        ]
+      },
+      {
+        "index": 51,
+        "name": "달월",
+        "lat": 37.379681,
+        "lon": 126.745177,
+        "transfer": []
+      },
+      {
+        "index": 52,
+        "name": "월곶",
+        "lat": 37.391769,
+        "lon": 126.742699,
+        "transfer": []
+      },
+      {
+        "index": 53,
+        "name": "소래포구",
+        "lat": 37.40095,
+        "lon": 126.733522,
+        "transfer": []
+      },
+      {
+        "index": 54,
+        "name": "인천논현",
+        "lat": 37.400614,
+        "lon": 126.722478,
+        "transfer": []
+      },
+      {
+        "index": 55,
+        "name": "호구포",
+        "lat": 37.401637,
+        "lon": 126.708627,
+        "transfer": []
+      },
+      {
+        "index": 56,
+        "name": "남동인더스파크",
+        "lat": 37.407722,
+        "lon": 126.695216,
+        "transfer": []
+      },
+      {
+        "index": 57,
+        "name": "원인재",
+        "lat": 37.413049,
+        "lon": 126.686648,
+        "transfer": [
+          {
+            "line_index": 11,
+            "station_name": "원인재",
+            "station_index": 21
+          }
+        ]
+      },
+      {
+        "index": 58,
+        "name": "연수",
+        "lat": 37.417804,
+        "lon": 126.67894,
+        "transfer": []
+      },
+      {
+        "index": 59,
+        "name": "송도",
+        "lat": 37.428514,
+        "lon": 126.657772,
+        "transfer": []
+      },
+      {
+        "index": 60,
+        "name": "인하대",
+        "lat": 37.448493,
+        "lon": 126.649619,
+        "transfer": []
+      },
+      {
+        "index": 61,
+        "name": "숭의(인하대병원)",
+        "lat": 37.460789,
+        "lon": 126.638297,
+        "transfer": []
+      },
+      {
+        "index": 62,
+        "name": "신포",
+        "lat": 37.46874,
+        "lon": 126.623853,
+        "transfer": []
+      },
+      {
+        "index": 63,
+        "name": "인천",
+        "lat": 37.476403,
+        "lon": 126.617326,
+        "transfer": [
+          {
+            "line_index": 2,
+            "station_name": "인천",
+            "station_index": 21
+          }
+        ]
+      },
+      {
+        "index": 64,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 19,
+    "line_name": "수도권 전철 신분당선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "신사",
+        "lat": 37.516334,
+        "lon": 127.020114,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "신사(KCC건설)",
+            "station_index": 29
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "논현",
+        "lat": 37.511093,
+        "lon": 127.021415,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "논현",
+            "station_index": 24
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "신논현",
+        "lat": 37.504598,
+        "lon": 127.02506,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "신논현",
+            "station_index": 25
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "강남",
+        "lat": 37.496837,
+        "lon": 127.028104,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "강남(하루플란트치과)",
+            "station_index": 22
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "양재(서초구청)",
+        "lat": 37.483809,
+        "lon": 127.034653,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "양재(서초구청)",
+            "station_index": 34
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "양재시민의숲(매헌)",
+        "lat": 37.470023,
+        "lon": 127.03842,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "청계산입구",
+        "lat": 37.447211,
+        "lon": 127.055664,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "판교(판교테크노밸리)",
+        "lat": 37.394761,
+        "lon": 127.112217,
+        "transfer": [
+          {
+            "line_index": 13,
+            "station_name": "판교",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "정자",
+        "lat": 37.367098,
+        "lon": 127.108403,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "정자",
+            "station_index": 22
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "name": "미금(분당서울대병원)",
+        "lat": 37.349982,
+        "lon": 127.108918,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "미금(분당서울대병원)",
+            "station_index": 23
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "name": "동천",
+        "lat": 37.337928,
+        "lon": 127.102976,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "수지구청",
+        "lat": 37.322702,
+        "lon": 127.095026,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "성복",
+        "lat": 37.313335,
+        "lon": 127.0801,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "상현",
+        "lat": 37.297664,
+        "lon": 127.069342,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "광교중앙(아주대)",
+        "lat": 37.288617,
+        "lon": 127.051478,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "광교(경기대)",
+        "lat": 37.30211,
+        "lon": 127.044483,
+        "transfer": []
+      },
+      {
+        "index": 17,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 20,
+    "line_name": "서울 경전철 신림선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "샛강",
+        "lat": 37.5170969,
+        "lon": 126.929399,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "샛강(KB금융타운)",
+            "station_index": 16
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "대방(성애병원)",
+        "lat": 37.5133059,
+        "lon": 126.9257265,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "대방",
+            "station_index": 41
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "서울지방병무청",
+        "lat": 37.5060464,
+        "lon": 126.9227083,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "보라매",
+        "lat": 37.5002739,
+        "lon": 126.9204355,
+        "transfer": [
+          {
+            "line_index": 8,
+            "station_name": "보라매(현대에이치티)",
+            "station_index": 34
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "보라매공원",
+        "lat": 37.4955691,
+        "lon": 126.9180827,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "보라매병원(전문건설회관)",
+        "lat": 37.4929598,
+        "lon": 126.9234964,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "당곡",
+        "lat": 37.4902998,
+        "lon": 126.9275133,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "신림",
+        "lat": 37.4849266,
+        "lon": 126.9296159,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "신림",
+            "station_index": 30
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "name": "서원",
+        "lat": 37.4782341,
+        "lon": 126.9330365,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "서울대벤처타운",
+        "lat": 37.4720019,
+        "lon": 126.9339351,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "관악산(서울대)",
+        "lat": 37.4691018,
+        "lon": 126.9450639,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 21,
+    "line_name": "서울 경전철 우이신설선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "신설동",
+        "lat": 37.576095,
+        "lon": 127.023242,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "신설동",
+            "station_index": 30
+          },
+          {
+            "line_index": 97,
+            "station_name": "신설동",
+            "station_index": 5
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "보문",
+        "lat": 37.585286,
+        "lon": 127.019381,
+        "transfer": [
+          {
+            "line_index": 7,
+            "station_name": "보문",
+            "station_index": 29
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "성신여대입구(돈암)",
+        "lat": 37.592467,
+        "lon": 127.016516,
+        "transfer": [
+          {
+            "line_index": 5,
+            "station_name": "성신여대입구(돈암)",
+            "station_index": 13
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "정릉(국민대)",
+        "lat": 37.603133,
+        "lon": 127.013396,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "북한산보국문(서경대)",
+        "lat": 37.612072,
+        "lon": 127.008251,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "솔샘",
+        "lat": 37.620238,
+        "lon": 127.013626,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "삼양사거리",
+        "lat": 37.621337,
+        "lon": 127.020473,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "삼양",
+        "lat": 37.626914,
+        "lon": 127.018106,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "화계",
+        "lat": 37.634133,
+        "lon": 127.017511,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "가오리",
+        "lat": 37.641537,
+        "lon": 127.016789,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "4·19민주묘지(덕성여대)",
+        "lat": 37.649502,
+        "lon": 127.013684,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "솔밭공원",
+        "lat": 37.65603,
+        "lon": 127.013273,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "북한산우이(도선사입구)",
+        "lat": 37.662909,
+        "lon": 127.012706,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 22,
+    "line_name": "김포 골드라인",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "김포공항",
+        "lat": 37.56236,
+        "lon": 126.801868,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "김포공항",
+            "station_index": 3
+          },
+          {
+            "line_index": 10,
+            "station_name": "김포공항",
+            "station_index": 2
+          },
+          {
+            "line_index": 16,
+            "station_name": "김포공항",
+            "station_index": 6
+          },
+          {
+            "line_index": 17,
+            "station_name": "김포공항",
+            "station_index": 15
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "고촌",
+        "lat": 37.601243,
+        "lon": 126.770345,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "풍무(연세하나병원)",
+        "lat": 37.612488,
+        "lon": 126.732387,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "사우(나리여성병원)",
+        "lat": 37.620249,
+        "lon": 126.719731,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "걸포북변(마디척병원)",
+        "lat": 37.63165,
+        "lon": 126.705975,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "운양",
+        "lat": 37.653867,
+        "lon": 126.68393,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "장기",
+        "lat": 37.643986,
+        "lon": 126.669017,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "마산(김포 FC)",
+        "lat": 37.640732,
+        "lon": 126.644344,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "구래(리멤버피부과)",
+        "lat": 37.645384,
+        "lon": 126.628633,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "양촌",
+        "lat": 37.642379,
+        "lon": 126.614309,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 23,
+    "line_name": "용인 경전철(용인 에버라인)",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "기흥(백남준아트센터)",
+        "lat": 37.275449,
+        "lon": 127.116665,
+        "transfer": [
+          {
+            "line_index": 18,
+            "station_name": "기흥(백남준아트센터)",
+            "station_index": 29
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "강남대",
+        "lat": 37.270161,
+        "lon": 127.126033,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "지석",
+        "lat": 37.269606,
+        "lon": 127.136515,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "어정",
+        "lat": 37.274917,
+        "lon": 127.143714,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "동백",
+        "lat": 37.269043,
+        "lon": 127.152716,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "초당",
+        "lat": 37.260752,
+        "lon": 127.159443,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "삼가(용인미르스타디움)",
+        "lat": 37.242115,
+        "lon": 127.168075,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "시청·용인대",
+        "lat": 37.239151,
+        "lon": 127.178406,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "명지대",
+        "lat": 37.237964,
+        "lon": 127.190294,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "김량장",
+        "lat": 37.237247,
+        "lon": 127.198781,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "용인중앙시장(용인예술과학대)",
+        "lat": 37.237845,
+        "lon": 127.209198,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "고진",
+        "lat": 37.24484,
+        "lon": 127.214251,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "보평",
+        "lat": 37.258965,
+        "lon": 127.218457,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "둔전",
+        "lat": 37.267051,
+        "lon": 127.21364,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "전대·에버랜드",
+        "lat": 37.285342,
+        "lon": 127.219561,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 24,
+    "line_name": "의정부 경전철",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "발곡",
+        "lat": 37.727048,
+        "lon": 127.052803,
+        "transfer": []
+      },
+      {
+        "index": 2,
+        "name": "회룡",
+        "lat": 37.725006,
+        "lon": 127.047073,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "회룡",
+            "station_index": 15
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "name": "범골",
+        "lat": 37.728755,
+        "lon": 127.04353,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "경전철의정부",
+        "lat": 37.737202,
+        "lon": 127.043257,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "의정부",
+            "station_index": 14
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "name": "의정부시청",
+        "lat": 37.739256,
+        "lon": 127.034781,
+        "transfer": []
+      },
+      {
+        "index": 6,
+        "name": "흥선",
+        "lat": 37.743302,
+        "lon": 127.037023,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "의정부중앙",
+        "lat": 37.743676,
+        "lon": 127.049565,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "동오",
+        "lat": 37.745271,
+        "lon": 127.056947,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "새말",
+        "lat": 37.748885,
+        "lon": 127.06362,
+        "transfer": []
+      },
+      {
+        "index": 10,
+        "name": "경기도청북부청사",
+        "lat": 37.75059,
+        "lon": 127.071495,
+        "transfer": []
+      },
+      {
+        "index": 11,
+        "name": "효자",
+        "lat": 37.754025,
+        "lon": 127.076902,
+        "transfer": []
+      },
+      {
+        "index": 12,
+        "name": "곤제",
+        "lat": 37.750471,
+        "lon": 127.083715,
+        "transfer": []
+      },
+      {
+        "index": 13,
+        "name": "어룡",
+        "lat": 37.742802,
+        "lon": 127.085035,
+        "transfer": []
+      },
+      {
+        "index": 14,
+        "name": "송산",
+        "lat": 37.737279,
+        "lon": 127.087159,
+        "transfer": []
+      },
+      {
+        "index": 15,
+        "name": "탑석",
+        "lat": 37.733579,
+        "lon": 127.088704,
+        "transfer": []
+      },
+      {
+        "index": 16,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 94,
+    "line_name": "서울역행 경의선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "디지털미디어시티",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "가좌",
+        "lat": 37.568491,
+        "lon": 126.915487,
+        "transfer": [
+          {
+            "line_index": 14,
+            "station_name": "가좌",
+            "station_index": 22
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "신촌",
+        "lat": 37.559901686,
+        "lon": 126.942906303,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "서울",
+        "lat": 37.554530651,
+        "lon": 126.970713923,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "서울",
+            "station_index": 37
+          },
+          {
+            "line_index": 5,
+            "station_name": "서울",
+            "station_index": 21
+          },
+          {
+            "line_index": 16,
+            "station_name": "서울",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 95,
+    "line_name": "마천행 5호선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "천호",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "강동(강동성심병원)",
+        "lat": 37.535804,
+        "lon": 127.132481,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "강동(강동성심병원)",
+            "station_index": 39
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "둔촌동",
+        "lat": 37.527662237,
+        "lon": 127.136224276,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "올림픽공원(한국체대)",
+        "lat": 37.516269,
+        "lon": 127.130288,
+        "transfer": [
+          {
+            "line_index": 10,
+            "station_name": "올림픽공원(한국체대)",
+            "station_index": 36
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "name": "방이",
+        "lat": 37.508707408,
+        "lon": 127.126067133,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "오금",
+        "lat": 37.502129,
+        "lon": 127.128319,
+        "transfer": [
+          {
+            "line_index": 4,
+            "station_name": "오금",
+            "station_index": 44
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "개롱",
+        "lat": 37.49800253,
+        "lon": 127.135067786,
+        "transfer": []
+      },
+      {
+        "index": 7,
+        "name": "거여",
+        "lat": 37.493316022,
+        "lon": 127.143783426,
+        "transfer": []
+      },
+      {
+        "index": 8,
+        "name": "마천",
+        "lat": 37.495003087,
+        "lon": 127.152810603,
+        "transfer": []
+      },
+      {
+        "index": 9,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 96,
+    "line_name": "신도림지선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "신도림",
+        "lat": 37.508961,
+        "lon": 126.891084,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "신도림",
+            "station_index": 44
+          },
+          {
+            "line_index": 3,
+            "station_name": "신도림",
+            "station_index": 34
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "도림천",
+        "lat": 37.514495193,
+        "lon": 126.882639781,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "양천구청",
+        "lat": 37.512377985,
+        "lon": 126.865855008,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "신정네거리",
+        "lat": 37.520255312,
+        "lon": 126.852871688,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "까치산",
+        "lat": 37.531768,
+        "lon": 126.846683,
+        "transfer": [
+          {
+            "line_index": 6,
+            "station_name": "까치산",
+            "station_index": 9
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 97,
+    "line_name": "성수지선",
+    "stations": [
+      {
+        "index": 0,
+        "name": "시작",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "성수(무신사)",
+        "lat": 37.544581,
+        "lon": 127.055961,
+        "transfer": [
+          {
+            "line_index": 3,
+            "station_name": "성수(무신사)",
+            "station_index": 11
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "용답",
+        "lat": 37.562115335,
+        "lon": 127.050908497,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "신답",
+        "lat": 37.569908236,
+        "lon": 127.047206657,
+        "transfer": []
+      },
+      {
+        "index": 4,
+        "name": "용두",
+        "lat": 37.574047056,
+        "lon": 127.038215411,
+        "transfer": []
+      },
+      {
+        "index": 5,
+        "name": "신설동",
+        "lat": 37.576048,
+        "lon": 127.024634,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "신설동",
+            "station_index": 30
+          },
+          {
+            "line_index": 21,
+            "station_name": "신설동",
+            "station_index": 1
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 98,
+    "line_name": "서동탄행",
+    "stations": [
+      {
+        "index": 0,
+        "name": "세류",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "병점",
+        "lat": 37.207503,
+        "lon": 127.032731,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "병점",
+            "station_index": 61
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "서동탄",
+        "lat": 37.195944604,
+        "lon": 127.052206089,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  },
+  {
+    "line_index": 99,
+    "line_name": "광명셔틀",
+    "stations": [
+      {
+        "index": 0,
+        "name": "독산",
+        "virtual": true
+      },
+      {
+        "index": 1,
+        "name": "금천구청",
+        "lat": 37.455626,
+        "lon": 126.89398,
+        "transfer": [
+          {
+            "line_index": 1,
+            "station_name": "금천구청",
+            "station_index": 48
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "name": "KTX광명",
+        "lat": 37.416561026,
+        "lon": 126.884662956,
+        "transfer": []
+      },
+      {
+        "index": 3,
+        "name": "끝",
+        "virtual": true
+      }
+    ]
+  }
+]
