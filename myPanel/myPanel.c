@@ -1,5 +1,5 @@
 /* myPanel.c
- *
+ * X11 xfce4 좌측상단에 띄우는 GUI
  * 검은 배경 + 작은 monospace 글씨
  * time: 1초마다 갱신
  * uptime/battery: 10초마다 갱신
@@ -90,13 +90,7 @@ static gboolean detect_battery(AppState *st) {
     return FALSE;
 }
 
-static void on_window_realize(GtkWidget *widget, gpointer user_data) {
-    (void)user_data;
 
-    GdkWindow *gdk_win = gtk_widget_get_window(widget);
-    if (gdk_win)
-        gdk_window_set_pass_through(gdk_win, TRUE);
-}
 
 static void format_current_time(AppState *st) {
     time_t now = time(NULL);
@@ -236,7 +230,6 @@ int main(int argc, char **argv) {
     gtk_window_set_type_hint(GTK_WINDOW(window), GDK_WINDOW_TYPE_HINT_UTILITY);
 
     g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
-    g_signal_connect(window, "realize", G_CALLBACK(on_window_realize), NULL);
 
 
     apply_css();
