@@ -1,5 +1,6 @@
 /* myPanel.c
  * X11 xfce4 좌측상단에 띄우는 GUI
+ * click 먹어버리는 버전.. < 이거 고쳐야함..
  * 검은 배경 + 작은 monospace 글씨
  * time: 1초마다 갱신
  * uptime/battery: 10초마다 갱신
